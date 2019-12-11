@@ -111,7 +111,7 @@ ul.solarsystem li.mars {
     height: 800px;
     border-radius: 50%;
     top: 120px;
-    left: 21.5%;
+    left: 330px;
     z-index: 96;
 }
 ul.solarsystem li.mars span {
@@ -135,7 +135,7 @@ ul.solarsystem li.jupiter {
     height: 1000px;
     border-radius: 50%;
     top: 20px;
-    left: 15%;
+    left: 220px;
     z-index: 95;
     bottom: 20%;
 }
