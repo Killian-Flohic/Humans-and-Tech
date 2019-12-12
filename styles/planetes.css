@@ -27,11 +27,13 @@ a{
   position: absolute;
   top: 23%;
   font-size: 11vh;
+  color: #ffffff;
 }
 .pollution{
   position: absolute;
   top: 17%;
   font-size: 6vh;
+  color: #ffffff;
 }
 .text{
   position: absolute;
@@ -39,6 +41,7 @@ a{
   top: 42%;
   font-size: 3vh;
   text-align: center;
+  color: #ffffff;
 }
 
 .solutions{
