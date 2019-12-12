@@ -251,7 +251,7 @@ ul.solarsystem li.pluto {animation-duration:120s; }
   width: 10vh;
   position: absolute;
   top: 230%;
-  left: 34%;
+  left: 35%;
 }
 
 .circle_mars{
@@ -262,4 +262,33 @@ ul.solarsystem li.pluto {animation-duration:120s; }
   position: absolute;
   top: 250%;
   left: 79%;
+}
+
+.trait_earth{
+  height: 15vh;
+  width: 0.1vw;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 223%;
+  left: 40.5%;
+}
+.trait_mars{
+  height: 15vh;
+  width: 0.1vw;
+  background-color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 243%;
+  left: 79%;
+}
+
+.trait_space{
+  height: 15vh;
+  width: 0.1vw;
+  background-color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 199%;
+  left: 54%;
 }
