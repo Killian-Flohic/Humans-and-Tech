@@ -19,6 +19,7 @@ a{
   text-decoration: none;
 }
 /*main*/
+
 .background_debris{
   height: 99vh;
   width: 100vw;
@@ -52,6 +53,8 @@ a{
   border-radius: 4vh;
   opacity: 0.8;
   font-size: 3vh;
+  background-color: #000000;
+  color: #ffffff;
 }
 .alignement{
   display: flex;
