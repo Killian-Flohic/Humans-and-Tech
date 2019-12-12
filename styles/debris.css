@@ -5,3 +5,15 @@ body{
   height: 99vh;
   width: 100vw;
 }
+.spatiale{
+  position: absolute;
+  top: 23%;
+  left: 36%;
+  font-size: 11vh;
+}
+.pollution{
+  position: absolute;
+  top: 18%;
+  left: 41%;
+  font-size: 6vh;
+}
