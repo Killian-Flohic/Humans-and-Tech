@@ -8,20 +8,31 @@ body{
 .spatiale{
   position: absolute;
   top: 23%;
-  left: 36%;
   font-size: 11vh;
 }
 .pollution{
   position: absolute;
   top: 17%;
-  left: 41%;
   font-size: 6vh;
 }
 .text{
   position: absolute;
   z-index: 2;
   top: 42%;
-  left: 25%;
   font-size: 3vh;
   text-align: center;
+}
+
+.solutions{
+  height: 8vh;
+  width: 15vw;
+  position: absolute;
+  top: 80%;
+  border-radius: 4vh;
+  opacity: 0.8;
+  font-size: 3vh;
+}
+.alignement{
+  display: flex;
+  justify-content: center;
 }
