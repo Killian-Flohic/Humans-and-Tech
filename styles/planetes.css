@@ -60,3 +60,6 @@ a{
   display: flex;
   justify-content: center;
 }
+.current_page{
+  border-bottom: 1px solid #ffffff;
+}

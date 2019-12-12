@@ -49,9 +49,12 @@ a{
   border-radius: 4vh;
   opacity: 0.8;
   font-size: 3vh;
-    border: 1px solid black;
+  border: 1px solid black;
 }
 .alignement{
   display: flex;
   justify-content: center;
+}
+.current_page{
+  border-bottom: 1px solid #ffffff;
 }
