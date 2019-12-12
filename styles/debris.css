@@ -12,6 +12,7 @@ body{
   width: 100%;
   position: absolute;
   top: 0;
+  font-size: 3vh;
 }
 a{
   color: #ffffff;

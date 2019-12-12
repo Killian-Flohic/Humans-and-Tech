@@ -1,3 +1,56 @@
 body{
-  margin: 0, auto;
+  margin: 0;
+}
+/*header*/
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  opacity: 0.7;
+  height: 7vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 3vh;
+}
+/*main*/
+.background_debris{
+  height: 99vh;
+  width: 100vw;
+}
+.spatiale{
+  position: absolute;
+  top: 23%;
+  font-size: 11vh;
+}
+.pollution{
+  position: absolute;
+  top: 17%;
+  font-size: 6vh;
+}
+.text{
+  position: absolute;
+  z-index: 2;
+  top: 42%;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.solutions{
+  height: 8vh;
+  width: 15vw;
+  position: absolute;
+  top: 80%;
+  border-radius: 4vh;
+  opacity: 0.8;
+  font-size: 3vh;
+}
+.alignement{
+  display: flex;
+  justify-content: center;
 }
