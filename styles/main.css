@@ -19,16 +19,18 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
   font-size: 30px;
-
+  position: absolute;
+  top: 20%;
 }
-
 ul.solarsystem {
     position: relative;
     height: 1200px;
+    top: -20%;
     list-style: none;
     transition: all 0.09s ease-in;
     transition: all 0.09s ease-in;
     overflow: hidden;
+    text-align: center;
 }
 ul.solarsystem li {
     text-indent: -9999px;
@@ -48,6 +50,8 @@ ul.solarsystem li span {
 
 
 ul.solarsystem li.sun {
+  position: absolute;
+  z-index: 120;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -161,7 +165,7 @@ ul#descriptions h2 {
     position: relative;
     z-index: 101;
     transform: scale(1);
-	margin-bottom: -15px;
+   	margin-bottom: -15px;
 }
 ul#descriptions h2:hover {
    color: #aa4200;
@@ -218,10 +222,44 @@ ul.solarsystem li.pluto {animation-duration:120s; }
 @keyframes orbit { from { transform:rotate(0deg) } to {transform:rotate(360deg) } }
 @keyframes moon { from { transform:rotate(0deg) } to {transform:rotate(360deg) } }
 
-.background_space
-{
-  height: 100vh;
-  width: 100vw;
+.background_space{
+  height: 99vh;
+  width: 99vw;
+}
+
+.background_space_system{
+  height: 99vh;
+  width: 99vw;
   position: absolute;
-  z-index: 2;
+  top: 0;
+}
+
+.circle_space{
+  border-radius: 50%;
+  border: solid 0.25vh white;
+  height: 10vh;
+  width: 10vh;
+  position: absolute;
+  top: 195%;
+  left: 48%;
+}
+
+.circle_earth{
+  border-radius: 50%;
+  border: solid 0.25vh white;
+  height: 10vh;
+  width: 10vh;
+  position: absolute;
+  top: 230%;
+  left: 34%;
+}
+
+.circle_mars{
+  border-radius: 50%;
+  border: solid 0.25vh white;
+  height: 10vh;
+  width: 10vh;
+  position: absolute;
+  top: 250%;
+  left: 79%;
 }
