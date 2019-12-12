@@ -13,7 +13,15 @@ body{
 }
 .pollution{
   position: absolute;
-  top: 18%;
+  top: 17%;
   left: 41%;
   font-size: 6vh;
+}
+.text{
+  position: absolute;
+  z-index: 2;
+  top: 42%;
+  left: 25%;
+  font-size: 3vh;
+  text-align: center;
 }
