@@ -18,6 +18,9 @@ a{
   text-decoration: none;
   font-size: 3vh;
 }
+.logo_earth{
+  height: 5vh;
+}
 /*main*/
 .background_debris{
   height: 99vh;
