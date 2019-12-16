@@ -5,7 +5,7 @@
 
 			camera.position.x = 30;
 			camera.position.y = 100;
-			camera.position.z = 30;
+			camera.position.z = 10;
 
 
 
@@ -18,7 +18,7 @@
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_up.JPG'), side: THREE.DoubleSide}),
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_lf.JPG'), side: THREE.DoubleSide}),
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_rt.JPG'), side: THREE.DoubleSide}),
-				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_ft.JPG'), side: THREE.DoubleSide}),
+				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_ft.jpg'), side: THREE.DoubleSide}),
 			];
 
 			let cube=new THREE.Mesh( geometry, cubeMaterials);
@@ -38,7 +38,7 @@
 		 	document.body.appendChild( renderer.domElement )
 			let controls = new THREE.OrbitControls(camera, renderer.domElement);
       controls.minDistance = 10;
-      controls.maxDistance = 50;
+      controls.maxDistance = 200;
 
 
 			 /*
@@ -48,11 +48,15 @@
 
 			controls.addEventListener('change', renderer);
 			let loader = new THREE.GLTFLoader();
-			let satellite;
-			let satellite2;
-			let poubelle;
+			let satellite
+			let satellite2
+      let satellite3
+			let poubelle
 			let yui
 			let toilette
+      let debris1
+      let rocket
+      let rock
 
 
 
@@ -65,10 +69,19 @@
 })
 			loader.load('images/sat2/sat2.gltf', function(gltf){
 			satellite2 = gltf.scene;
-			satellite2.position.set(-40, -35, -5);
+      gltf.scene.scale.set(2,2,2)
+			satellite2.position.set(-40, -35, -50);
 			scene.add(satellite2);
 			animate();
 			})
+      loader.load('images/sat3/scene.gltf', function(gltf){
+      satellite3 = gltf.scene;
+      gltf.scene.scale.set(0.2,0.2,0.2)
+      satellite3.position.set(-45, 0, -350);
+      scene.add(satellite3);
+      animate();
+      })
+
 
 
 			loader.load('images/toilette/toilette.gltf', function(gltf){
@@ -87,7 +100,7 @@
 
       loader.load('images/debris1/debris1.gltf', function(gltf){
       debris1 = gltf.scene;
-      debris1.position.set(5, 5 , 5);
+      debris1.position.set(5, 5 , -25);
       scene.add(debris1);
       animate();
       })
@@ -104,13 +117,18 @@
 
 
 function animate() {
-				if (satellite) satellite.rotation.x += 0.001;
-				if (satellite2) satellite2.rotation.x += 0.005;
-				if (toilette) toilette.rotation.x += 0.01;
-				if (yui) yui.rotation.y += 0.001;
-				if (yui) yui.rotation.x += 0.005;
-        if (debris1) debris1.rotation.y += 0.001;
-        if (rocket)rocket.rotation.y += 0.001;
+				if (satellite) satellite.rotation.x += 0.0005;
+				if (satellite2) satellite2.rotation.x += 0.0007;
+				if (toilette) toilette.rotation.x += 0.005;
+				if (yui) yui.rotation.y += 0.0005;
+				if (yui) yui.rotation.x += 0.0007;
+        if (debris1) debris1.rotation.y += 0.0005;
+        if (debris1) debris1.rotation.x += 0.0009;
+        if (rocket)rocket.rotation.y += 0.0005;
+        if (rocket)rocket.rotation.x += 0.0006;
+        if (satellite3)satellite3.rotation.y += 0.0001;
+        if (satellite3)satellite3.rotation.x += 0.0003;
+
 
 
 
