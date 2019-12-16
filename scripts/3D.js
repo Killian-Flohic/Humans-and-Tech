@@ -3,9 +3,11 @@
 
 			let camera = new THREE.PerspectiveCamera(40, window.innerWidth/ window.innerHeight, 1,1000 );
 
-			camera.position.x = 0;
-			camera.position.y = 0;
-			camera.position.z = 10;
+			camera.position.x = 30;
+			camera.position.y = 100;
+			camera.position.z = 30;
+
+
 
 			let geometry = new THREE.CubeGeometry( 1000, 1000, 1000)
 
@@ -13,10 +15,10 @@
 			[
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_bk.JPG'), side: THREE.DoubleSide}),
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_dn.JPG'), side: THREE.DoubleSide}),
-				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_ft.JPG'), side: THREE.DoubleSide}),
+				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_up.JPG'), side: THREE.DoubleSide}),
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_lf.JPG'), side: THREE.DoubleSide}),
 				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_rt.JPG'), side: THREE.DoubleSide}),
-				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_up.JPG'), side: THREE.DoubleSide}),
+				new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('images/cwd_ft.JPG'), side: THREE.DoubleSide}),
 			];
 
 			let cube=new THREE.Mesh( geometry, cubeMaterials);
@@ -35,9 +37,13 @@
 		 	renderer.setSize( window.innerWidth, window.innerHeight )
 		 	document.body.appendChild( renderer.domElement )
 			let controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.minDistance = 10;
+      controls.maxDistance = 50;
 
+
+			 /*
 			controls_phone.connect();
-
+*/
 
 
 			controls.addEventListener('change', renderer);
@@ -53,13 +59,13 @@
 
 			loader.load('images/sat1/sat1.gltf', function(gltf){
 			satellite = gltf.scene;
-			satellite.position.set(100, 100, 10);
+			satellite.position.set(-50, -35, 10);
 			scene.add(satellite);
 			animate();
 })
 			loader.load('images/sat2/sat2.gltf', function(gltf){
 			satellite2 = gltf.scene;
-			satellite2.position.set(40, 100, 100);
+			satellite2.position.set(-40, -35, -5);
 			scene.add(satellite2);
 			animate();
 			})
@@ -79,6 +85,21 @@
 			animate();
 			})
 
+      loader.load('images/debris1/debris1.gltf', function(gltf){
+      debris1 = gltf.scene;
+      debris1.position.set(5, 5 , 5);
+      scene.add(debris1);
+      animate();
+      })
+
+      loader.load('images/rocket_engine/scene.gltf', function(gltf){
+      rocket = gltf.scene;
+      rocket.position.set(10, 10 , 0);
+      scene.add(rocket);
+      animate();
+      })
+
+
 
 
 
@@ -86,14 +107,22 @@ function animate() {
 				if (satellite) satellite.rotation.x += 0.001;
 				if (satellite2) satellite2.rotation.x += 0.005;
 				if (toilette) toilette.rotation.x += 0.01;
-				if (yui) yui.rotation.y += 0.01;
-				if (yui) yui.rotation.x += 0.05;
+				if (yui) yui.rotation.y += 0.001;
+				if (yui) yui.rotation.x += 0.005;
+        if (debris1) debris1.rotation.y += 0.001;
+        if (rocket)rocket.rotation.y += 0.001;
+
+
+
+
+
+
 
 
 			 renderer.render(scene,camera);
 			 requestAnimationFrame(animate);
 
-
+			 /*
 			controls_phone.update()
-
+*/
 		 }
