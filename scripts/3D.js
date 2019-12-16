@@ -35,9 +35,9 @@
 		 	renderer.setSize( window.innerWidth, window.innerHeight )
 		 	document.body.appendChild( renderer.domElement )
 			let controls = new THREE.OrbitControls(camera, renderer.domElement);
-			 /*
+
 			controls_phone.connect();
-*/
+
 
 
 			controls.addEventListener('change', renderer);
@@ -90,15 +90,10 @@ function animate() {
 				if (yui) yui.rotation.x += 0.05;
 
 
-
-
-
-
-
 			 renderer.render(scene,camera);
 			 requestAnimationFrame(animate);
 
-			 /*
+
 			controls_phone.update()
-*/
+
 		 }
