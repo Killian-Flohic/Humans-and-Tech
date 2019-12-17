@@ -59,8 +59,6 @@
       let rocket_2
       let rocket_3
       let rocket_4
-      let rocket_5
-      let rocket_6
       let rocket_7
       let rocket_8
       let doorv4
@@ -69,12 +67,7 @@
       let doorv4_4
       let doorv4_5
       let doorv4_6
-
-
-
-      let rock
       let fusee
-      let pipe
       let door
 
 
