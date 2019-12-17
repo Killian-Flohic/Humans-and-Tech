@@ -320,7 +320,8 @@ a{
   z-index: 4;
   border-radius: 20vh;
   font-size: 3vh;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .phone{
   background-color: #ffffff;
@@ -330,7 +331,8 @@ a{
   z-index: 4;
   border-radius: 20vh;
   font-size: 3vh;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 /*FOOTER*/
 footer{
@@ -341,6 +343,46 @@ footer{
   top: 500%;
   background-color: #000000;
   border-top: 1px solid #ffffff;
+  font-size: 4vh;
+  text-align: center;
+}
+.trait_space{
+  height: 15vh;
+  width: 0.1vw;
+  background-color: white;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 508%;
+  left: 50%;
+  z-index: 4;
+  opacity: 0.7;
+  color: white;
+}
+.part_left_footer{
+  position: absolute;
+  left: 0%;
+  top: 28%;
+  width:50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.part_right_footer{
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  width:50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.col_left{
+  display: flex;
+  flex-direction: column;
+}
+.col_right{
+  display: flex;
+  flex-direction: column;
 }
 .test_3D{
  width: 50px;
