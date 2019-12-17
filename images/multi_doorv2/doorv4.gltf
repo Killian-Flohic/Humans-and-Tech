@@ -1,0 +1,125 @@
+{
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 I/O",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_3"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "a93edf82abea448685ec2bd1d3a2d48d.obj.cleaner.materialmerger.gle"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode (gltf orientation matrix)"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Door",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 13438,
+            "max" : [
+                58.87085723876953,
+                23.501995086669922,
+                53.683265686035156
+            ],
+            "min" : [
+                -71.42522430419922,
+                -46.19768142700195,
+                -13.193061828613281
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 13438,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 13438,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 38346,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 161256,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 161256,
+            "byteOffset" : 161256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107504,
+            "byteOffset" : 322512
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 76692,
+            "byteOffset" : 430016
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 506708,
+            "uri" : "doorv3.bin"
+        }
+    ]
+}
