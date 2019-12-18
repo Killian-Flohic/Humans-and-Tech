@@ -72,7 +72,7 @@ a{
   z-index: 4;
   top: 105%;
   color: white;
-  font-size: 4vh;
+  font-size: 3.5vh;
   text-align: center;
 }
 
@@ -84,13 +84,33 @@ a{
   color: white;
   font-size: 3.5vh;
   text-align: center;
+  padding-left: 0.2vw;
 }
 .bazar{
   height: 60vh;
   width : 50vw;
   position: absolute;
-  top: 125%;
+  top: 126%;
   left: 2%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.text_recap{
+  z-index: 4;
+  position: absolute;
+  top: 225%;
+  left: 5%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+  width: 50%;
+}
+.spoutnik{
+  height: 40vh;
+  width : 40vw;
+  position: absolute;
+  top: 235%;
+  left: 57%;
   z-index: 4;
   border-radius: 10vh;
 }
@@ -122,25 +142,6 @@ a{
   font-size: 3.5vh;
   text-align: center;
 }
-.text_recap{
-  z-index: 4;
-  position: absolute;
-  top: 225%;
-  left: 10%;
-  color: white;
-  font-size: 3.5vh;
-  text-align: center;
-}
-.spoutnik{
-  height: 40vh;
-  width : 40vw;
-  position: absolute;
-  top: 240%;
-  left: 57%;
-  z-index: 4;
-  border-radius: 10vh;
-}
-
 .trait_recap_left{
   height: 15vh;
   width: 0.2vw;
@@ -337,7 +338,7 @@ a{
 .tittle_mars{
   position: absolute;
   top: 369.5%;
-  left: 59%;
+  left: 58%;
   font-size: 3vh;
   z-index: 4;
   color: white;
@@ -378,7 +379,7 @@ a{
   font-size: 3vh;
   position: absolute;
   top: 377%;
-  left: 46.5%;
+  left: 43.5%;
   text-align: right;
   opacity: 0;
 }
@@ -435,20 +436,21 @@ footer{
   top: 500%;
   background-color: #000000;
   border-top: 1px solid #ffffff;
-  font-size: 4vh;
+  font-size: 2vh;
   text-align: center;
+  justify-content: space-around;
 }
 .tittle_footer{
   position: absolute;
-  top: 7%;
-  left: 16%;
+  margin: 0 auto;
+  padding-top: 2vh;
   z-index: 4;
   color: white;
 }
 .tittle_assoc{
   position: absolute;
-  top: 7%;
-  left: 63%;
+  margin: 0 auto;
+  padding-top: 2vh;
   z-index: 4;
   color: white;
 }
@@ -459,13 +461,6 @@ footer{
   z-index: 4;
   color: white;
   font-size: 3vh;
-}
-.tittle_assoc{
-  position: absolute;
-  top: 7%;
-  left: 63%;
-  z-index: 4;
-  color: white;
 }
 .mentions_legales{
   position: absolute;
@@ -484,9 +479,6 @@ footer{
   top: 25%;
   left: 50%;
   z-index: 4;
-  }
-footer{
-  justify-content: space-around;
 }
 .part_left_footer{
   position: absolute;
