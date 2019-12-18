@@ -49,7 +49,7 @@ text-align: center;
 height: 8vh;
 width: 15vw;
 position: absolute;
-top: 80%;
+top: 85%;
 border-radius: 4vh;
 opacity: 0.8;
 font-size: 3vh;
@@ -66,11 +66,30 @@ border-bottom: 1px solid #ffffff;
 
 
 .background_planete{
-height: 62vw;
+height: 130vh;
 width: 100vw;
 position: absolute;
-top: 85%;
+top: 82%;
+left: 0;
 }
+
+.background_planete_2{
+ height: 130vh;
+ width: 100vw;
+ position: absolute;
+ top:197%;
+}
+
+.background_planete_3{
+ height: 180vh;
+ width: 100vw;
+ position: absolute;
+ top:302%;
+}
+
+
+
+
 .text_central{
 display: flex;
 justify-content: center;
@@ -121,29 +140,24 @@ right: 25%;
 position:absolute;
 z-index :5;
 top: 138%;
-right: 40%;
+right: 35%;
 
 }
 .text_page_2_3{
 position:absolute;
 z-index :5;
 top: 155%;
-right: 55%;
+right: 45%;
 
 }
 .text_page_2_4{
 position:absolute;
 z-index :5;
 top: 175%;
-right: 65%;
+right: 55%;
 }
 
-.background_planete_2{
- height: 66vw;
- width: 100vw;
- position: absolute;
- top:197%;
-}
+
 
 .tittle_accroche_page_2{
  position: absolute;
@@ -184,20 +198,20 @@ right: 65%;
 .text_page_3_1{
  position:absolute;
  z-index :5;
- top: 224%;
+ top: 230%;
  left: 5%;
 }
 .text_page_3_2{
  position:absolute;
  z-index :5;
- top: 258%;
+ top: 268%;
  right: 5%;
 
 }
 .text_page_3_3{
  position:absolute;
  z-index :5;
- top: 305%;
+ top: 315%;
  left: 5%;
 
 }
@@ -205,23 +219,21 @@ right: 65%;
 .fusee{
  position: absolute;
  z-index:7;
- top: 258%;
- left: 10%;
+ top: 268%;
+ left: 15%;
+ width: 50vh;
+ height:auto;
 }
 
 .dechet{
  position: absolute;
  z-index:7;
  top: 308%;
- right: 5%;
+ right: 10%;
+ width: 50vh;
+ height:auto;
 }
 
-.background_planete_3{
- height: 90vw;
- width: 100vw;
- position: absolute;
- top:302%;
-}
 
 .tittle_accroche_page_3{
  position: absolute;
@@ -263,13 +275,13 @@ right: 65%;
  position:absolute;
  z-index :5;
  top: 385%;
- left: 16%;
+ left: 30%;
 }
 .text_page_4_2{
  position:absolute;
  z-index :5;
  top: 455%;
- right: 16%;
+ left: 30%;
 
 }
 
@@ -278,7 +290,7 @@ right: 65%;
   z-index:7;
   top: 418%;
   left: 10%;
-  width:400px;
+  width:55vh;
   height: auto;
 }
 
@@ -287,7 +299,365 @@ right: 65%;
   z-index:7;
   top: 418%;
   right: 10%;
-  width:400px;
+  width:55vh;
   height: auto;
 
 }
+
+p{
+  width: 720px
+}
+
+
+
+@media screen and (max-width:1340px){
+
+
+  .text_page_2_1{
+  position:absolute;
+  z-index :5;
+  top: 124%;
+  left: 0;
+  right: 0;
+  margin: 0 auto
+
+
+  }
+  .text_page_2_2{
+  position:absolute;
+  z-index :5;
+  top: 138%;
+  left: 0;
+  right: 0;
+  margin: 0 auto
+  }
+  .text_page_2_3{
+  position:absolute;
+  z-index :5;
+  top: 155%;
+  left: 0;
+  right: 0;
+  margin: 0 auto
+
+  }
+  .text_page_2_4{
+  position:absolute;
+  z-index :5;
+  top: 175%;
+  left: 0;
+  right: 0;
+  margin: 0 auto
+  }
+
+
+
+  .text_page_3_1{
+   position:absolute;
+   z-index :5;
+   top: 230%;
+   left: 0;
+   right: 0;
+   margin: 0 auto
+  }
+  .text_page_3_2{
+   position:absolute;
+   z-index :5;
+   top: 300%;
+   left: 0;
+   right: 0;
+   margin: 0 auto
+  }
+  .text_page_3_3{
+   position:absolute;
+   z-index :5;
+   top: 365%;
+   left: 0;
+   right: 0;
+   margin: 0 auto
+
+  }
+
+  .fusee{
+   position: absolute;
+   z-index:7;
+   top: 258%;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+  width: 50vh;
+   height:auto;
+  }
+
+  .dechet{
+   position: absolute;
+   z-index:7;
+   top: 328%;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+  width: 50vh;
+   height:auto;
+  }
+
+
+
+
+
+  .tittle_accroche_page_3{
+   position: absolute;
+   z-index: 4;
+   top: 390%;
+   color: white;
+   font-size: 4vh;
+   text-align: center;
+  }
+
+  .trait_accroche_left_page_3{
+   height: 15vh;
+   width: 0.2vw;
+   background-color: white;
+   transform: rotate(90deg);
+   position: absolute;
+   top: 390%;
+   left: 32%;
+   z-index: 4;
+  }
+  .trait_accroche_right_page_3{
+   height: 15vh;
+   width: 0.2vw;
+   background-color: white;
+   transform: rotate(90deg);
+   position: absolute;
+   top: 390%;
+   left: 68%;
+   z-index: 4;
+  }
+
+  .text_page_4_1{
+   position:absolute;
+   z-index :5;
+   top: 405%;
+   left: 0;
+   right: 0;
+   margin: 0 auto
+   }
+  .text_page_4_2{
+   position:absolute;
+   z-index :5;
+   top: 470%;
+   left: 0;
+   right: 0;
+   margin: 0 auto
+  }
+
+  .falcon_1{
+    position: absolute;
+    z-index:7;
+    top: 430%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width:55vh;
+    height: auto;
+  }
+
+  .falcon_2{
+    position: absolute;
+    z-index:7;
+    top: 490%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width:55vh;
+    height: auto;
+
+  }
+
+  .background_planete_3{
+   height: 230vh;
+   width: 100vw;
+   position: absolute;
+   top:302%;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:700px){
+  /*
+
+  .background_debris {
+    height: 125vh;
+      width: auto;
+  }
+
+
+  .pollution{
+    font-size: 35px;
+    RIGHT: -81%;
+  margin: 0 auto;
+
+  }
+
+  .spatiale{
+    font-size: 55px;
+    left: 119%;
+    margin: 0 auto;
+  }
+
+  .text{
+    left: 85%;
+    top: 34%;
+
+  }
+
+  p {
+    width: 590px;
+}
+
+.solutions {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 136%;
+    border-radius: 4vh;
+    opacity: 0.8;
+    font-size: 3vh;
+    border: 1px solid black;
+}
+
+.background_planete {
+  height: 134vh;
+    width: auto;
+    position: absolute;
+    top: 82%;
+}
+
+.text_page_2_1 {
+    left: 7%;
+    margin: 0 auto;
+}
+.text_page_2_2 {
+    left: 7%;
+    margin: 0 auto;
+}
+.text_page_2_3 {
+    left: 7%;
+    margin: 0 auto;
+}
+.text_page_2_4 {
+    left: 7%;
+    margin: 0 auto;
+}
+
+.tittle_accroche {
+
+      left: 7%;
+
+}
+.trait_accroche_left{
+  display: none;
+}
+
+.trait_accroche_right{
+  display: none;
+}
+
+.background_planete_2 {
+  height: 178vh;
+  width: auto;
+
+}
+
+.text_page_3_1 {
+  left: 95%;
+    margin: 0 auto;
+}
+.text_page_3_2 {
+  left: 95%;
+    margin: 0 auto;
+}
+.text_page_3_3 {
+  left: 95%;
+    margin: 0 auto;
+}
+
+.tittle_accroche_page_2 {
+
+  left: 95%;
+
+}
+.trait_accroche_left_page_2{
+  display: none;
+}
+
+.trait_accroche_right_page_2{
+  display: none;
+}
+
+
+.background_planete_3 {
+  height: 240vh;
+  width: auto;
+
+}
+
+.text_page_4_1 {
+  left: 95%;
+    margin: 0 auto;
+}
+.text_page_4_2 {
+  left: 95%;
+    margin: 0 auto;
+}
+.text_page_4_3 {
+  left: 95%;
+    margin: 0 auto;
+}
+
+.tittle_accroche_page_3 {
+
+  left: 95%;
+
+}
+.trait_accroche_left_page_3{
+  display: none;
+}
+
+.trait_accroche_right_page_3{
+  display: none;
+}
+
+.fusee{
+  left: 124%;
+
+}
+
+.dechet{
+  left: 124%;
+
+}
+.falcon_1{
+  left: 116%;
+  top: 434%;
+
+}
+
+.falcon_2{
+  left: 116%;
+  top: 498%;
+
+}
+*/
+body{
+  display: none;
+}
+
+
+
+
+ }
