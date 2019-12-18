@@ -1,5 +1,6 @@
 body{
 margin: 0;
+overflow-x: hidden;
 }
 /*header*/
 .header{
@@ -68,7 +69,7 @@ border-bottom: 1px solid #ffffff;
 height: 62vw;
 width: 100vw;
 position: absolute;
-top: 87%;
+top: 85%;
 }
 .text_central{
 display: flex;
@@ -141,7 +142,7 @@ right: 65%;
  height: 66vw;
  width: 100vw;
  position: absolute;
- top:202%;
+ top:197%;
 }
 
 .tittle_accroche_page_2{
