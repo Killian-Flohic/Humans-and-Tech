@@ -106,6 +106,16 @@ a{
   font-size: 3.5vh;
   text-align: center;
 }
+.spoutnik{
+  height: 40vh;
+  width : 40vw;
+  position: absolute;
+  top: 240%;
+  left: 57%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+
 .trait_recap_left{
   height: 15vh;
   width: 0.2vw;
