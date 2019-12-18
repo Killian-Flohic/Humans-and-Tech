@@ -87,8 +87,17 @@ a{
 .text_accroche{
   z-index: 4;
   position: absolute;
-  top: 125%;
-  left: 53%;
+  top: 130%;
+  left: 8%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.text_accroche2{
+  z-index: 4;
+  position: absolute;
+  top: 152%;
+  left: 5%;
   color: white;
   font-size: 3.5vh;
   text-align: center;
