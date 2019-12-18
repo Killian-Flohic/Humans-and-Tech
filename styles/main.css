@@ -291,6 +291,7 @@ a{
   top: 348%;
   left: 37.5%;
   z-index: 4;
+  opacity: 0;
 }
 .trait_mars{
   height: 15vh;
@@ -301,6 +302,7 @@ a{
   top: 373%;
   left: 76%;
   z-index: 4;
+  opacity: 0;
 }
 
 .trait_space{
@@ -312,6 +314,7 @@ a{
   top: 319%;
   left: 56%;
   z-index: 4;
+  opacity: 0;
 }
 
 .tittle_mars{
@@ -321,6 +324,7 @@ a{
   font-size: 3vh;
   z-index: 4;
   color: white;
+  opacity: 0;
 }
 
 .tittle_earth{
@@ -330,6 +334,7 @@ a{
   font-size: 3vh;
   z-index: 4;
   color: white;
+  opacity: 0;
 }
 
 .tittle_space{
@@ -339,6 +344,7 @@ a{
   font-size: 3vh;
   z-index: 4;
   color: white;
+  opacity: 0;
 }
 .text_earth{
   color: white;
@@ -347,6 +353,7 @@ a{
   position: absolute;
   top: 352.5%;
   left: 41%;
+  opacity: 0;
 }
 .text_mars{
   color: white;
@@ -356,6 +363,7 @@ a{
   top: 377%;
   left: 46.5%;
   text-align: right;
+  opacity: 0;
 }
 .text_space{
   color: white;
@@ -364,6 +372,7 @@ a{
   position: absolute;
   top: 335.5%;
   left: 59%;
+  opacity: 0;
 }
 .button{
   height: 15%;
@@ -396,6 +405,9 @@ a{
   font-size: 3vh;
   display: flex;
   justify-content: center;
+}
+.js_trait_earth{
+  opacity: 0;
 }
 /*FOOTER*/
 footer{
