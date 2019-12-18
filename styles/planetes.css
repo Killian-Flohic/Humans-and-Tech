@@ -139,6 +139,24 @@ a{
   font-size: 3.5vh;
   text-align: center;
 }
+.text_recap{
+  z-index: 4;
+  position: absolute;
+  top: 213%;
+  left: 50%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.text_recap2{
+  z-index: 4;
+  position: absolute;
+  top: 251%;
+  left: 2%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
 .trait_ethique_left{
   height: 15vh;
   width: 0.2vw;
@@ -176,12 +194,21 @@ a{
   font-size: 3.5vh;
   text-align: center;
 }
-.spoutnik{
-  height: 40vh;
-  width : 40vw;
+.sondes{
+  height: 30vh;
+  width : 30vw;
   position: absolute;
-  top: 240%;
-  left: 57%;
+  top: 258%;
+  left: 60%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.bacterie{
+  height: 30vh;
+  width : 30vw;
+  position: absolute;
+  top: 218%;
+  left: 10%;
   z-index: 4;
   border-radius: 10vh;
 }
