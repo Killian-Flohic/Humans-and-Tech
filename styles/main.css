@@ -68,7 +68,15 @@ a{
   font-size: 3.5vh;
   text-align: center;
 }
-
+.bazar{
+  height: 60vh;
+  width : 50vw;
+  position: absolute;
+  top: 125%;
+  left: 2%;
+  z-index: 4;
+  border-radius: 10vh;
+}
 .trait_accroche_left{
   height: 15vh;
   width: 0.2vw;
@@ -106,6 +114,16 @@ a{
   font-size: 3.5vh;
   text-align: center;
 }
+.spoutnik{
+  height: 40vh;
+  width : 40vw;
+  position: absolute;
+  top: 240%;
+  left: 57%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+
 .trait_recap_left{
   height: 15vh;
   width: 0.2vw;
@@ -291,7 +309,7 @@ a{
   background-color: white;
   transform: rotate(-45deg);
   position: absolute;
-  top: 318%;
+  top: 319%;
   left: 56%;
   z-index: 4;
 }
@@ -321,6 +339,31 @@ a{
   font-size: 3vh;
   z-index: 4;
   color: white;
+}
+.text_earth{
+  color: white;
+  z-index: 4;
+  font-size: 3vh;
+  position: absolute;
+  top: 352.5%;
+  left: 41%;
+}
+.text_mars{
+  color: white;
+  z-index: 4;
+  font-size: 3vh;
+  position: absolute;
+  top: 377%;
+  left: 46.5%;
+  text-align: right;
+}
+.text_space{
+  color: white;
+  z-index: 4;
+  font-size: 3vh;
+  position: absolute;
+  top: 335.5%;
+  left: 59%;
 }
 .button{
   height: 15%;
@@ -403,13 +446,13 @@ footer{
   color: white;
   font-size: 3vh;
 }
-.trait_space{
+.trait_footer{
   height: 15vh;
   width: 0.1vw;
   background-color: white;
   position: absolute;
   transform: rotate(0deg);
-  top: 508%;
+  top: 25%;
   left: 50%;
   z-index: 4;
   }
