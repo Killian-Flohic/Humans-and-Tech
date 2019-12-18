@@ -320,7 +320,7 @@ a{
   z-index: 4;
   border-radius: 20vh;
   font-size: 3vh;
-  display: flex;
+  align-items: center;
   justify-content: center;
 }
 .phone{
@@ -368,6 +368,21 @@ footer{
   color: white;
   font-size: 3vh;
 }
+.tittle_assoc{
+  position: absolute;
+  top: 7%;
+  left: 63%;
+  z-index: 4;
+  color: white;
+}
+.mentions_legales{
+  position: absolute;
+  top: 85%;
+  left: 89%;
+  z-index: 4;
+  color: white;
+  font-size: 3vh;
+}
 .trait_space{
   height: 15vh;
   width: 0.1vw;
@@ -377,8 +392,8 @@ footer{
   top: 508%;
   left: 50%;
   z-index: 4;
-  opacity: 0.7;
-  color: white;
+@ -368,6 +390,7 @@ footer{
+  justify-content: space-around;
 }
 .part_left_footer{
   position: absolute;
