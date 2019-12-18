@@ -61,3 +61,148 @@ a{
 .current_page{
   border-bottom: 1px solid #ffffff;
 }
+
+
+
+.background_planete{
+  height: 62vw;
+  width: 100vw;
+  position: absolute;
+  top: 87%;
+}
+.text_central{
+  display: flex;
+  justify-content: center;
+}
+.tittle_accroche{
+  position: absolute;
+  z-index: 4;
+  top: 105%;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.trait_accroche_left{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 104%;
+  left: 32%;
+  z-index: 4;
+}
+.trait_accroche_right{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 104%;
+  left: 68%;
+  z-index: 4;
+}
+
+.text_page_2{
+  font-size: 3vh;
+  text-align: center;
+  color: white;
+
+}
+.text_page_2_1{
+  position:absolute;
+  z-index :5;
+  top: 124%;
+  right: 25%;
+}
+.text_page_2_2{
+  position:absolute;
+  z-index :5;
+  top: 138%;
+  right: 40%;
+
+}
+.text_page_2_3{
+  position:absolute;
+  z-index :5;
+  top: 155%;
+  right: 55%;
+
+}
+.text_page_2_4{
+  position:absolute;
+  z-index :5;
+  top: 175%;
+  right: 65%;
+ }
+
+ .background_planete_2{
+   height: 66vw;
+   width: 100vw;
+   position: absolute;
+   top: 187%;
+ }
+
+ .tittle_accroche_page_2{
+   position: absolute;
+   z-index: 4;
+   top: 205%;
+   color: white;
+   font-size: 4vh;
+   text-align: center;
+ }
+
+ .trait_accroche_left_page_2{
+   height: 15vh;
+   width: 0.2vw;
+   background-color: white;
+   transform: rotate(90deg);
+   position: absolute;
+   top: 204%;
+   left: 32%;
+   z-index: 4;
+ }
+ .trait_accroche_right_page_2{
+   height: 15vh;
+   width: 0.2vw;
+   background-color: white;
+   transform: rotate(90deg);
+   position: absolute;
+   top: 204%;
+   left: 68%;
+   z-index: 4;
+ }
+
+ .text_page_3{
+   font-size: 3vh;
+   text-align: center;
+   color: white;
+
+ }
+ .text_page_3_1{
+   position:absolute;
+   z-index :5;
+   top: 224%;
+   right: 25%;
+ }
+ .text_page_3_2{
+   position:absolute;
+   z-index :5;
+   top: 238%;
+   right: 40%;
+
+ }
+ .text_page_3_3{
+   position:absolute;
+   z-index :5;
+   top: 255%;
+   right: 55%;
+
+ }
+ .text_page_3_4{
+   position:absolute;
+   z-index :5;
+   top: 275%;
+   right: 65%;
+  }
