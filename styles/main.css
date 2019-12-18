@@ -514,3 +514,9 @@ footer{
  z-index : 100;
  position: absolute;
 }
+/*resposive*/
+@media all and (orientation: portrait){
+  header{
+    color: red;
+  }
+}
