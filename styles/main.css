@@ -301,6 +301,34 @@ a{
   font-size: 3vh;
   z-index: 4;
   color: white;
+<<<<<<< HEAD
+=======
+}
+.text_earth{
+  color: white;
+  z-index: 4;
+  font-size: 3vh;
+  position: absolute;
+  top: 352.5%;
+  left: 41%;
+}
+.text_mars{
+  color: white;
+  z-index: 4;
+  font-size: 3vh;
+  position: absolute;
+  top: 377%;
+  left: 46.5%;
+  text-align: right;
+}
+.text_space{
+  color: white;
+  z-index: 4;
+  font-size: 3vh;
+  position: absolute;
+  top: 335.5%;
+  left: 59%;
+>>>>>>> parent of 2ff2afc... js ok
 }
 .button{
   height: 15%;
