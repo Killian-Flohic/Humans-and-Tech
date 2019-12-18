@@ -392,7 +392,8 @@ footer{
   top: 508%;
   left: 50%;
   z-index: 4;
-@ -368,6 +390,7 @@ footer{
+  }
+footer{
   justify-content: space-around;
 }
 .part_left_footer{
