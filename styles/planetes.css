@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'gordita_medium';
-  src: url('/fonts/Gordita/gordita_medium-webfont.eot');
-  src: url('/fonts/Gordita/gordita_medium-webfont.eot') format('embedded-opentype'),
-       url('/fonts/Gordita/gordita_medium-webfont.woff2') format('woff2'),
-       url('/fonts/Gordita/gordita_medium-webfont.woff') format('woff'),
-       url('/fonts/Gordita/gordita_medium-webfont.otf') format('truetype'),
-       url('/fonts/Gordita/gordita_medium-webfont.ttf') format('truetype'),
-       url('/fonts/Gordita/gordita_medium-webfont.svg') format('svg');
+  src: url('../fonts/Gordita/gordita_medium-webfont.eot');
+  src: url('../fonts/Gordita/gordita_medium-webfont.eot') format('embedded-opentype'),
+       url('../fonts/Gordita/gordita_medium-webfont.woff2') format('woff2'),
+       url('../fonts/Gordita/gordita_medium-webfont.woff') format('woff'),
+       url('../fonts/Gordita/gordita_medium-webfont.otf') format('truetype'),
+       url('../fonts/Gordita/gordita_medium-webfont.ttf') format('truetype'),
+       url('../fonts/Gordita/gordita_medium-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 body{
-  margin: 0;
+  font-family: 'arial', sans-serif;
 }
 /*header*/
 .header{
@@ -23,62 +23,459 @@ body{
   height: 9vh;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 0%;
+  left: 0%;
+  z-index: 3;
   font-size: 3vh;
-  font-family: 'arial', sans-serif;
+  font-family: 'gordita_medium', sans-serif;
+
 }
 a{
   color: #ffffff;
   text-decoration: none;
 }
-.logo_earth{
-  height: 5vh;
+.logo{
+  height: 7vh;
 }
 /*main*/
-
-.background_debris{
-  height: 99vh;
-  width: 100vw;
-}
-.spatiale{
+.background_intro{
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 23%;
-  font-size: 11vh;
-  color: #ffffff;
-  font-family: 'gordita_medium', sans-serif;
-}
-.pollution{
-  position: absolute;
-  top: 17%;
-  font-size: 6vh;
-  color: #ffffff;
-  font-family: 'gordita_medium', sans-serif;
-}
-.text{
-  position: absolute;
+  left: 0%;
+  top: 0%;
   z-index: 2;
-  top: 42%;
-  font-size: 3vh;
-  text-align: center;
-  color: #ffffff;
-  font-family: 'arial', sans-serif;
 }
-
-.solutions{
-  height: 8vh;
-  width: 15vw;
-  position: absolute;
-  top: 80%;
-  border-radius: 4vh;
-  opacity: 0.8;
-  font-size: 3vh;
-  background-color: #000000;
-  color: #ffffff;
-}
-.alignement{
+.text_central{
   display: flex;
   justify-content: center;
 }
-.current_page{
-  border-bottom: 1px solid #ffffff;
+.tittle_accueil{
+  position: absolute;
+  z-index: 4;
+  top: 38%;
+  color: white;
+  font-size: 5vh;
+  text-align: center;
+}
+.subtittle_accueil{
+  position: absolute;
+  z-index: 4;
+  top: 40%;
+  color: white;
+  font-size: 9vh;
+  text-align: center;
+}
+.scroll_accueil{
+  position: absolute;
+  z-index: 4;
+  top: 80%;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.tittle_accroche{
+  position: absolute;
+  z-index: 4;
+  top: 105%;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.text_accroche{
+  z-index: 4;
+  position: absolute;
+  top: 125%;
+  left: 53%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.bazar{
+  height: 60vh;
+  width : 50vw;
+  position: absolute;
+  top: 125%;
+  left: 2%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.trait_accroche_left{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 104%;
+  left: 32%;
+  z-index: 4;
+}
+.trait_accroche_right{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 104%;
+  left: 68%;
+  z-index: 4;
+}
+.tittle_recap{
+  position: absolute;
+  z-index: 4;
+  top: 205%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.text_recap{
+  z-index: 4;
+  position: absolute;
+  top: 225%;
+  left: 10%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.trait_ethique_left{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 304%;
+  left: 32%;
+  z-index: 4;
+}
+.trait_ethique_right{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 304%;
+  left: 68%;
+  z-index: 4;
+}
+.tittle_ethique{
+  position: absolute;
+  z-index: 4;
+  top: 305%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.text_ethique{
+  z-index: 4;
+  position: absolute;
+  top: 315%;
+  left: 7.5%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+.spoutnik{
+  height: 40vh;
+  width : 40vw;
+  position: absolute;
+  top: 240%;
+  left: 57%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.spoutnik{
+  height: 40vh;
+  width : 40vw;
+  position: absolute;
+  top: 240%;
+  left: 57%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.alien{
+  height: 30vh;
+  width : 25vw;
+  position: absolute;
+  top: 338%;
+  left: 60%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.decors{
+  height: 30vh;
+  width : 25vw;
+  position: absolute;
+  top: 338%;
+  left: 15%;
+  z-index: 4;
+  border-radius: 10vh;
+}
+.interrogation{
+  height: 35vh;
+  width : 20vw;
+  position: absolute;
+  top: 335%;
+  left: 40%;
+  z-index: 4;
+}
+
+
+.trait_recap_left{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 204%;
+  left: 32%;
+  z-index: 4;
+}
+.trait_recap_right{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 204%;
+  left: 68%;
+  z-index: 4;
+}
+.tittle_VR{
+  position: absolute;
+  z-index: 4;
+  top: 440%;
+  color: white;
+  font-size: 5.5vh;
+  text-align: center;
+}
+
+.trait_VR_left{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 442%;
+  left: 32%;
+  z-index: 4;
+}
+.trait_VR_right{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 442%;
+  left: 68%;
+  z-index: 4;
+}
+.trait_VR_coin_left{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 400%;
+  left: 90%;
+  z-index: 4;
+}
+.trait_VR_coin_left_plat{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  position: absolute;
+  top: 475%;
+  left: 5%;
+  z-index: 4;
+}
+.trait_VR_coin_right{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 485%;
+  left: 10%;
+  z-index: 4;
+}
+.trait_VR_coin_right_plat{
+  height: 15vh;
+  width: 0.2vw;
+  background-color: white;
+  position: absolute;
+  top: 410%;
+  left: 95%;
+  z-index: 4;
+}
+
+.subtittle_VR{
+  position: absolute;
+  z-index: 4;
+  top: 448%;
+  color: white;
+  font-size: 3vh;
+  text-align: center;
+}
+.background_accroche{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+.background_recap{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 200%;
+}
+.background_space{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 300%;
+}
+.background_VR{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 400%;
+  background-color: #000000;
+}
+
+.button{
+  height: 15%;
+  width: 60%;
+  z-index: 3;
+  position: absolute;
+  left: 20%;
+  top: 460%;
+  display: flex;
+  justify-content: space-around;
+}
+.computer{
+  background-color: #ffffff;
+  color: #000000;
+  height: 4vh;
+  width: 7vw;
+  z-index: 4;
+  border-radius: 20vh;
+  font-size: 3vh;
+  align-items: center;
+  justify-content: center;
+}
+.phone{
+  background-color: #ffffff;
+  color: #000000;
+  height: 4vh;
+  width: 7vw;
+  z-index: 4;
+  border-radius: 20vh;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+}
+.js_trait_earth{
+  opacity: 0;
+}
+/*FOOTER*/
+footer{
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  left: 0%;
+  top: 500%;
+  background-color: #000000;
+  border-top: 1px solid #ffffff;
+  font-size: 4vh;
+  text-align: center;
+}
+.tittle_footer{
+  position: absolute;
+  top: 7%;
+  left: 16%;
+  z-index: 4;
+  color: white;
+}
+.tittle_assoc{
+  position: absolute;
+  top: 7%;
+  left: 63%;
+  z-index: 4;
+  color: white;
+}
+.mentions_legales{
+  position: absolute;
+  top: 85%;
+  left: 89%;
+  z-index: 4;
+  color: white;
+  font-size: 3vh;
+}
+.tittle_assoc{
+  position: absolute;
+  top: 7%;
+  left: 63%;
+  z-index: 4;
+  color: white;
+}
+.mentions_legales{
+  position: absolute;
+  top: 85%;
+  left: 89%;
+  z-index: 4;
+  color: white;
+  font-size: 3vh;
+}
+.trait_footer{
+  height: 15vh;
+  width: 0.1vw;
+  background-color: white;
+  position: absolute;
+  transform: rotate(0deg);
+  top: 25%;
+  left: 50%;
+  z-index: 4;
+  }
+footer{
+  justify-content: space-around;
+}
+.part_left_footer{
+  position: absolute;
+  left: 0%;
+  width:50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.part_right_footer{
+  color: white;
+  position: absolute;
+  left: 50%;
+  width:50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.col_left{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.col_right{
+    padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.test_3D{
+ width: 50px;
+ height: 50px;
+ background-color: white;
+ z-index : 100;
+ position: absolute;
 }
