@@ -58,6 +58,14 @@ a{
   font-size: 5vh;
   text-align: center;
 }
+.text_accueil{
+  position: absolute;
+  z-index: 4;
+  top: 58%;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
 .subtittle_accueil{
   position: absolute;
   z-index: 4;
