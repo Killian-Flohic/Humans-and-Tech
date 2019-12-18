@@ -58,6 +58,17 @@ a{
   font-size: 4vh;
   text-align: center;
 }
+
+.text_accroche{
+  z-index: 4;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+}
+
 .trait_accroche_left{
   height: 15vh;
   width: 0.2vw;
@@ -84,6 +95,15 @@ a{
   top: 205%;
   color: white;
   font-size: 4vh;
+  text-align: center;
+}
+.text_recap{
+  z-index: 4;
+  position: absolute;
+  top: 225%;
+  left: 10%;
+  color: white;
+  font-size: 3.5vh;
   text-align: center;
 }
 .trait_recap_left{
