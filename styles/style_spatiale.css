@@ -1,0 +1,626 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 100vw;
+    height: 8vh;
+    background: black;
+}
+
+.container-space{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-image: url(../images/nasa-spatiale.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.space-title
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+
+}
+
+.space-title .big-title
+{
+    font-family: 'Lato';
+    font-size: 70px;
+}
+
+.space-title .title
+{
+    font-family: 'Lato';
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 80%;
+}
+
+.space p
+{
+    margin-left: 17%;
+    margin-top: 9%;
+    width: 65%;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.informations
+{
+    padding-top: 3%;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/space.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info-title
+{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: 70%;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-family: 'Lato';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-title .border
+{
+    width: 25%;
+    height: 0.5vh;
+    background-color: white;
+}
+
+.informations .numbers-info
+{
+    margin: 7%;
+}
+
+.alignement
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations .numbers-info .info-1
+{
+    width: 52%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: white;
+    line-height: 140%;
+}
+
+.size-1 .pamplemousse
+{
+    width: 33%;
+    margin: 7%;
+}
+
+.size .peanut
+{
+    margin: 40%;
+    width: 40%;
+}
+
+.size .salt
+{
+    width: 20%;
+    margin: 12%;
+}
+
+.informations .numbers-info .debris-size
+{
+    color: white;
+    font-family: 'Lato';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.debris-size span, .size-1 span
+{
+    text-align: center;
+    width: 107%;
+}
+
+.debris-size .size
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.debris-size .size-1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.pourcentage
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.info-2, .info-2bis
+{
+    width: 86%;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: white;
+    line-height: 140%;
+}
+
+.info-2bis
+{
+    margin-top: 5%;
+}
+
+.margin-info-2
+{
+    margin-left: 11%;
+}
+
+.pourcentage .earth
+{
+    width: 40%;
+    border-radius: 20%;
+}
+
+.container-infos
+{
+    margin: -9%;
+    margin-top: -15%;
+    margin-bottom: -20%;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/space.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.risk
+{
+    margin-top: 14%;
+    margin: 8%;
+    padding-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.risk img
+{
+    width: 42%;
+}
+
+.risk p
+{
+    width: 54%;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: white;
+    line-height: 140%;
+}
+
+/* 
+** Kessler 
+*/
+
+.kessler
+{
+    margin-left: -8.5%;
+    padding: 5%;
+    width: 91vw;
+    height: 100vh;
+    background-image: url(../images/space.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.syndrome-1
+{
+    margin: 0 auto;
+    width: 54%;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: white;
+    line-height: 140%;
+}
+
+.kessler-1
+{
+    margin-bottom: 5%;
+}
+
+.kessler-animation
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kessler-animation img
+{
+    width: 31%;
+}
+
+/* 
+** Solutions 
+*/
+.solutions
+{
+    margin-left: -8.5%;
+    padding: 5%;
+    width: 91vw;
+    height: 100vh;
+    background-image: url(../images/space.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.solution
+{
+    width: 54%;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: white;
+    line-height: 140%;
+}
+
+.solution-1
+{
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.solution-2
+{
+    width: 60%;
+    margin-bottom: 5%;
+    margin-left: 70%;
+}
+
+.solution-3
+{
+    width: 71%;
+    margin-bottom: 5%;
+    margin-left: 45%;
+}
+
+.solution-4
+{
+    width: 76%;
+    margin-left: 30%;
+}
+
+.solution-img
+{
+    width: 51%;
+    margin-top: -45%;
+    margin-left: 53.6%;
+}
+
+/*
+** Explications
+*/
+
+.explications
+{
+    margin-left: -4.5%;
+    width: 99.3vw;
+    height: 100vh;
+    background-image: url(../images/space.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.explications-text
+{
+    width: 54%;
+    margin-top: 8%;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: white;
+    line-height: 140%;
+}
+
+.explication-1
+{
+    width: 84%;
+    margin-bottom: 6%;
+}
+
+.explication-2
+{
+    width: 88%;
+    margin-bottom: 6%;
+}
+
+.explication-3
+{
+    width: 86%;
+    margin-bottom: 6%;
+}
+
+.explication-4
+{
+    width: 77%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+}
+
+.earth-explications
+{
+    width: 50%;
+    transform: rotate(90deg);
+    margin-top: -2%;
+    margin-left: -20%;
+}
+
+@media screen and (max-width:915px)
+{
+    .container-space
+    {
+        margin-bottom: -65%;
+    }
+    
+    .space-title
+    {
+        padding-top: 10%;
+    }
+
+    .space-title .title
+    {
+        font-size: 75px;
+    }
+
+    .space-title .big-title
+    {
+        font-size: 43px;
+    }
+
+    .space p
+    {
+
+        font-size: 21px;
+        margin-top: 6%;
+    }
+
+    .info-title
+    {
+        font-size: 179%;
+        width: 95%;
+    }
+
+    .alignement
+    {
+        flex-direction: column;
+    }
+
+    .informations .numbers-info .info-1
+    {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 14px;
+    }
+
+    .informations .numbers-info .debris-size
+    {
+        font-size: 13px;
+        margin-left: 6%;
+    }
+
+    .size .peanut
+    {
+        margin: 40%;
+        width: 55%;
+    }
+
+    .size-1 .pamplemousse
+    {
+        width: 97%;
+        margin: 16%;
+    }
+
+    .size .salt
+    {
+        width: 51%;
+        margin-bottom: 17%;
+        margin-right: 8%;
+    }
+
+    .debris-size span, .size-1 span
+    {
+        width: 144%;
+    }
+
+    .debris-size .size-1
+    {
+        margin-right: 11%;
+    }
+
+    .debris-size .media-salt
+    {
+        margin-right: -2%;
+    }
+
+    .pourcentage
+    {
+        flex-direction: column-reverse;
+        margin-top: 15%;
+    }
+
+    .margin-info-2
+    {
+        margin-left: 0%;
+        margin-bottom: 6%;
+    }
+
+    .info-2, .info-2bis
+    {
+        width: 99%;
+        font-size: 14px;
+    }
+
+    .pourcentage .earth
+    {
+        width: 68%;
+    }
+
+    .container-infos
+    {
+        margin-top: -32%;
+        width: 101vw;
+        margin-bottom: -76%;
+    }
+
+    .risk
+    {
+        padding-top: 30%;
+        margin: 6%;
+    }
+
+    .risk p
+    {
+        width: 54%;
+        font-size: 14px;
+    }
+
+    .kessler
+    {
+        width: 92vw;
+    }
+
+    .syndrome-1
+    {
+        width: 65%;
+        font-size: 14px;
+    }
+    .solutions
+    {
+        width: 92vw;
+    }
+
+    .solution
+    {
+        font-size: 14px;
+    }
+
+    .solution-1
+    {
+        width: 169%;
+    }
+    .solution-2
+    {
+        width: 132%;
+        margin-bottom: 10%;
+        margin-left: 29%;
+    }
+    
+    .solution-3
+    {
+        width: 150%;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+    
+    .solution-4
+    {
+        width: 189%;
+        margin-left: 0%;
+    }
+    
+    .solution-img
+    {
+        width: 86%;
+        margin-top: -79%;
+        margin-left: 18.6%;
+        opacity: 0.3;
+    }
+    
+    .earth-explications
+    {
+        width: 71%;
+        margin-top: 22%;
+        margin-left: -32%;
+        margin-right: -30%;
+    }
+    
+    .explications
+    {
+        margin-left: -16px;
+        margin-top: 10%;
+        width: 100.3vw;
+        align-items: flex-start;
+    }
+    
+    .explications-text
+    {
+        width: 53%;
+        font-size: 14px;
+    }
+    
+    .explication-1
+    {
+        width: 127%;
+        margin-left: -15%;
+        margin-bottom: 25%;
+    }
+    
+    .explication-2
+    {
+        width: 172%;
+        margin-left: -62%;
+        margin-bottom: 15%;
+    }
+    
+    .explication-3
+    {
+        width: 172%;
+        margin-left: -61%;
+        margin-bottom: 15%;
+    }
+    
+    .explication-4
+    {
+        width: 147%;
+        margin-bottom: 15%;
+        margin-left: -47%;
+    }
+}
