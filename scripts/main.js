@@ -1,17 +1,3 @@
-/*class Player
-{
-    constructor(_element)
-    {
-      this.setbefore()
-    }
-
-  setbefore()
-{
-  let planetes = document.querySelector(".js_trait_earth")
-  console.log(planetes)
-}
-
-const animation = new Player(document.querySelector('.js-player'))*/
 const earth = document.querySelector(".js_trait_earth")
 const mars = document.querySelector(".js_trait_mars")
 const space = document.querySelector(".js_trait_space")
@@ -24,7 +10,6 @@ const text_mars = document.querySelector(".js_text_mars")
 const circle_mars = document.querySelector(".js_circle_mars")
 const circle_space = document.querySelector(".js_circle_space")
 const circle_earth = document.querySelector(".js_circle_earth")
-console.log(tittle_space)
 
 
 circle_earth.addEventListener("mouseover", ()=> {

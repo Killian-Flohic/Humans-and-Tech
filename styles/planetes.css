@@ -37,8 +37,19 @@ a{
 }
 .logo{
   height: 7vh;
+  z-index: 3;
+}
+.hamburger{
+  position: absolute;
+  top: 1.45%;
+  left: 45%;
+  z-index: 4;
+  height: 6vh;
+  opacity: 0;
+  pointer-events: none;
 }
 /*responsive header*/
+
 @media screen and (max-width: 915px){
   ..header{
     display: flex;
@@ -63,6 +74,7 @@ a{
 }
 .logo{
   height: 7vh;
+  z-index: 3;
 }
 .text_header{
   opacity: 0;
@@ -70,12 +82,50 @@ a{
 .earth_logo{
   position: absolute;
   left: 2%;
-  top: 12%;
+  top: 14%;
+  height: 6vh;
+  z-index: 3;
 }
 .cardboard_logo{
   position: absolute;
   left: 80%;
   top: 12%;
+}
+.hamburger{
+  position: absolute;
+  top: 1.45%;
+  left: 45%;
+  z-index: 6;
+  height: 6vh;
+  opacity: 1;
+  pointer-events: painted;
+}
+.menu_hamburger{
+  background-color: #000000;
+  width: 100%;
+  height: 60%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.text_menu{
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+  font-size: 6vh;
+  padding-bottom: 3%;
+  border-bottom: 1px solid white;
+}
+.croix{
+  text-align: center;
+  position: absolute;
+  top: 1.45%;
+  left: 37%;
+  z-index: 2;
+  height: 8vh;
+  opacity: 0;
 }
 }
 
@@ -108,6 +158,7 @@ a{
   color: white;
   font-size: 4vh;
   text-align: center;
+  width: 60%;
 }
 .subtittle_accueil{
   position: absolute;
@@ -265,11 +316,21 @@ a{
   z-index: 4;
   position: absolute;
   top: 315%;
-  left: 7.5%;
+  left: 10%;
   color: white;
   font-size: 3.5vh;
   text-align: center;
-  width: 80<%;
+  width: 80%;
+}
+.text_ethique2{
+  z-index: 4;
+  position: absolute;
+  top: 375%;
+  left: 10%;
+  color: white;
+  font-size: 3.5vh;
+  text-align: center;
+  width: 80%;
 }
 
 .alien{
@@ -437,6 +498,9 @@ a{
   justify-content: space-around;
 }
 .computer{
+  position: absolute;
+  top: 460%;
+  left: 58%;
   background-color: #ffffff;
   color: #000000;
   height: 4vh;
@@ -444,10 +508,12 @@ a{
   z-index: 4;
   border-radius: 20vh;
   font-size: 3vh;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 .phone{
+  position: absolute;
+  top: 460%;
+  left: 35%;
   background-color: #ffffff;
   color: #000000;
   height: 4vh;
@@ -455,14 +521,17 @@ a{
   z-index: 4;
   border-radius: 20vh;
   font-size: 3vh;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .js_trait_earth{
   opacity: 0;
 }
 /*responsive main*/
 @media screen and (max-width: 915px){
+body{
+  background-color: black;
+}
+
 .tittle_accueil{
   position: absolute;
   z-index: 4;
@@ -733,7 +802,7 @@ a{
 /*FOOTER*/
 footer{
   width: 100%;
-  height: 30%;
+  height: 42%;
   position: absolute;
   left: 0%;
   top: 500%;
@@ -758,8 +827,8 @@ footer{
 }
 .mentions_legales{
   position: absolute;
-  top: 85%;
-  left: 89%;
+  left: 0%;
+  top: 0%;
   z-index: 4;
   color: white;
   font-size: 3vh;
@@ -831,11 +900,39 @@ footer{
 @media screen and (max-width: 915px){
 footer{
   width: 100%;
-  height: 90%;
+  height: 150%;
   background-color: #000000;
   border-top: 1px solid #ffffff;
   font-size: 5vh;
 }
+
+.computer{
+  position: absolute;
+  top: 460%;
+  left: 58%;
+  background-color: #ffffff;
+  color: #000000;
+  height: 5vh;
+  width: 30vw;
+  z-index: 4;
+  border-radius: 20vh;
+  font-size: 3vh;
+  text-align: center;
+}
+.phone{
+  position: absolute;
+  top: 460%;
+  left: 20%;
+  background-color: #ffffff;
+  color: #000000;
+  height: 5vh;
+  width: 30vw;
+  z-index: 4;
+  border-radius: 20vh;
+  font-size: 3vh;
+  text-align: center;
+}
+
 .tittle_footer{
   opacity: 0;
 }
@@ -845,12 +942,11 @@ footer{
 }
 .mentions_legales{
   position: absolute;
-  top: 85%;
-  left: 89%;
+  left: 30%;
+  margin-top: 20%;
   z-index: 4;
   color: white;
   font-size: 3vh;
-  opacity: 0;
 }
 .trait_footer{
   height: 15vh;
