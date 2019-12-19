@@ -48,6 +48,15 @@ a{
   opacity: 0;
   pointer-events: none;
 }
+.croix{
+  text-align: center;
+  position: absolute;
+  top: 1.45%;
+  left: 37%;
+  z-index: 2;
+  height: 8vh;
+  opacity: 0;
+}
 /*responsive header*/
 
 @media screen and (max-width: 915px){
@@ -133,6 +142,9 @@ a{
 }
 
 /*main*/
+.current_page{
+  border-bottom: 1px solid #ffffff;
+}
 .background_intro{
   height: 100%;
   width: 100%;
@@ -415,7 +427,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 442%;
+  top: 446%;
   left: 32%;
   z-index: 4;
 }
@@ -425,7 +437,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 442%;
+  top: 446%;
   left: 68%;
   z-index: 4;
 }
