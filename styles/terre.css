@@ -10,6 +10,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body{
 margin: 0;
 overflow-x: hidden;
@@ -148,27 +149,27 @@ color: white;
 position:absolute;
 z-index :5;
 top: 124%;
-right: 25%;
+right: 22%;
 }
 .text_page_2_2{
 position:absolute;
 z-index :5;
 top: 138%;
-right: 35%;
+right: 32%;
 
 }
 .text_page_2_3{
 position:absolute;
 z-index :5;
 top: 155%;
-right: 45%;
+right: 42%;
 
 }
 .text_page_2_4{
 position:absolute;
 z-index :5;
 top: 175%;
-right: 55%;
+right: 52%;
 }
 
 
@@ -289,13 +290,13 @@ right: 55%;
  position:absolute;
  z-index :5;
  top: 385%;
- left: 30%;
+ left: 25%;
 }
 .text_page_4_2{
  position:absolute;
  z-index :5;
  top: 455%;
- left: 30%;
+ left: 25%;
 
 }
 
