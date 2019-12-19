@@ -745,6 +745,7 @@ a{
     }
 }
 /*VR*/
+
 .text_central{
   display: flex;
   justify-content: center;
@@ -753,7 +754,7 @@ a{
 .tittle_VR{
   position: absolute;
   z-index: 4;
-  top: 440%;
+  top: 640%;
   color: white;
   font-size: 5.5vh;
   text-align: center;
@@ -766,7 +767,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 442%;
+  top: 642%;
   left: 32%;
   z-index: 4;
 }
@@ -776,7 +777,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 442%;
+  top: 642%;
   left: 68%;
   z-index: 4;
 }
@@ -786,7 +787,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 400%;
+  top: 600%;
   left: 90%;
   z-index: 4;
 }
@@ -795,7 +796,7 @@ a{
   width: 0.2vw;
   background-color: white;
   position: absolute;
-  top: 475%;
+  top: 675%;
   left: 5%;
   z-index: 4;
 }
@@ -805,7 +806,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 485%;
+  top: 685%;
   left: 10%;
   z-index: 4;
 }
@@ -814,7 +815,7 @@ a{
   width: 0.2vw;
   background-color: white;
   position: absolute;
-  top: 410%;
+  top: 610%;
   left: 95%;
   z-index: 4;
 }
@@ -822,7 +823,7 @@ a{
 .subtittle_VR{
   position: absolute;
   z-index: 4;
-  top: 448%;
+  top: 648%;
   color: white;
   font-size: 3vh;
   text-align: center;
@@ -833,7 +834,7 @@ a{
   width: 100%;
   position: absolute;
   left: 0%;
-  top: 400%;
+  top:604%;
   background-color: #000000;
 }
 
@@ -843,13 +844,13 @@ a{
   z-index: 3;
   position: absolute;
   left: 20%;
-  top: 460%;
+  top: 660%;
   display: flex;
   justify-content: space-around;
 }
 .computer{
   position: absolute;
-  top: 460%;
+  top: 660%;
   left: 58%;
   background-color: #ffffff;
   color: #000000;
@@ -863,7 +864,7 @@ a{
 }
 .phone{
   position: absolute;
-  top: 460%;
+  top: 660%;
   left: 35%;
   background-color: #ffffff;
   color: #000000;
@@ -883,7 +884,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 442%;
+  top: 642%;
   left: 32%;
   z-index: 4;
   opacity: 0;
@@ -894,62 +895,20 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 442%;
+  top: 642%;
   left: 68%;
   z-index: 4;
   opacity: 0;
 }
-.trait_accroche_left{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 32%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_accroche_right{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 68%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_recap_left{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 32%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_recap_right{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 68%;
-  z-index: 4;
-  opacity: 0;
-}
+
+
 .trait_VR_coin_left{
   height: 15vh;
   width: 0.2vw;
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 396%;
+  top: 386%;
   left: 76%;
   z-index: 4;
 }
@@ -958,7 +917,7 @@ a{
   width: 0.2vw;
   background-color: white;
   position: absolute;
-  top: 478%;
+  top: 462%;
   left: 5%;
   z-index: 4;
 }
@@ -968,7 +927,7 @@ a{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 488%;
+  top: 472%;
   left: 25%;
   z-index: 4;
 }
@@ -977,9 +936,22 @@ a{
   width: 0.2vw;
   background-color: white;
   position: absolute;
-  top: 407%;
+  top: 397%;
   left: 95%;
   z-index: 4;
+}
+.background_VR{
+  position: absolute;
+  top: 385%;
+  left: 0%;
+}
+.tittle_VR{
+  position: absolute;
+  top: 430%;
+}
+.subtittle_VR{
+  position: absolute;
+  top: 437%;
 }
 }
 /*FOOTER*/
@@ -988,7 +960,7 @@ footer{
   height: 42%;
   position: absolute;
   left: 0%;
-  top: 500%;
+  top: 700%;
   background-color: #000000;
   border-top: 1px solid #ffffff;
   font-size: 4vh;
@@ -1088,6 +1060,8 @@ footer{
   background-color: #000000;
   border-top: 1px solid #ffffff;
   font-size: 5vh;
+  position: absolute;
+  top: 485%;
 }
 
 .computer{
@@ -1126,7 +1100,7 @@ footer{
 }
 .mentions_legales{
   position: absolute;
-  left: 30%;
+  left: 35%;
   margin-top: 20%;
   z-index: 4;
   color: white;
