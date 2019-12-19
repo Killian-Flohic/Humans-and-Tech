@@ -1,9 +1,21 @@
+@font-face {
+  font-family: 'gordita_medium';
+  src: url('../fonts/Gordita/gordita_medium-webfont.eot');
+  src: url('../fonts/Gordita/gordita_medium-webfont.eot') format('embedded-opentype'),
+       url('../fonts/Gordita/gordita_medium-webfont.woff2') format('woff2'),
+       url('../fonts/Gordita/gordita_medium-webfont.woff') format('woff'),
+       url('../fonts/Gordita/gordita_medium-webfont.otf') format('truetype'),
+       url('../fonts/Gordita/gordita_medium-webfont.ttf') format('truetype'),
+       url('../fonts/Gordita/gordita_medium-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body{
 margin: 0;
 overflow-x: hidden;
 }
 /*header*/
-.header{
+header{
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -13,6 +25,8 @@ height: 7vh;
 width: 100%;
 position: absolute;
 top: 0;
+font-family: 'gordita_medium', sans-serif;
+
 }
 a{
 color: #ffffff;
@@ -220,7 +234,7 @@ right: 55%;
  position: absolute;
  z-index:7;
  top: 268%;
- left: 15%;
+ left: 12%;
  width: 50vh;
  height:auto;
 }
@@ -487,30 +501,30 @@ p{
 
 
 @media screen and (max-width:700px){
-  /*
 
-  .background_debris {
-    height: 125vh;
-      width: auto;
-  }
+
 
 
   .pollution{
-    font-size: 35px;
-    RIGHT: -81%;
-  margin: 0 auto;
-
+    text-align: center;
+      font-size: 92px;
+      left: 68%;
+      margin: 0 auto
   }
 
   .spatiale{
-    font-size: 55px;
-    left: 119%;
-    margin: 0 auto;
+    font-size: 101px;
+left: 48%;
+margin: 0 auto;
+top: 53%;
+
   }
 
   .text{
-    left: 85%;
-    top: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+    top:
 
   }
 
@@ -530,33 +544,27 @@ p{
     border: 1px solid black;
 }
 
-.background_planete {
-  height: 134vh;
-    width: auto;
-    position: absolute;
-    top: 82%;
-}
 
 .text_page_2_1 {
-    left: 7%;
+  left: 95%;
     margin: 0 auto;
 }
 .text_page_2_2 {
-    left: 7%;
+  left: 95%;
     margin: 0 auto;
 }
 .text_page_2_3 {
-    left: 7%;
+  left: 95%;
     margin: 0 auto;
 }
 .text_page_2_4 {
-    left: 7%;
+  left: 95%;
     margin: 0 auto;
 }
 
 .tittle_accroche {
 
-      left: 7%;
+  left: 95%;
 
 }
 .trait_accroche_left{
@@ -568,8 +576,8 @@ p{
 }
 
 .background_planete_2 {
-  height: 178vh;
-  width: auto;
+  width: 3000px;
+  height: auto;
 
 }
 
@@ -600,11 +608,7 @@ p{
 }
 
 
-.background_planete_3 {
-  height: 240vh;
-  width: auto;
 
-}
 
 .text_page_4_1 {
   left: 95%;
@@ -652,9 +656,14 @@ p{
   top: 498%;
 
 }
-*/
-body{
+.responsive{
   display: none;
+}
+
+body{
+ background-image: url("../images/spaceempty.jpeg");
+ background-attachment: fixed;
+ color: white;
 }
 
 
