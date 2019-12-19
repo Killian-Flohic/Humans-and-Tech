@@ -15,7 +15,7 @@ margin: 0;
 overflow-x: hidden;
 }
 /*header*/
-header{
+.header{
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -505,66 +505,79 @@ p{
 
 
 
+body{
+  margin-right: 0;
+  left: 45%;
+}
   .pollution{
-    text-align: center;
-      font-size: 92px;
-      left: 68%;
-      margin: 0 auto
+    left:70%;
+    width : 700px;
+    font-size: 12vh;
+
   }
 
   .spatiale{
-    font-size: 101px;
-left: 48%;
-margin: 0 auto;
-top: 53%;
+    font-size: 16vh;
+    left:47%;
+    top: 34%;
 
   }
 
   .text{
-    left: 0;
-    right: 0;
-    margin: 0 auto
-    top:
+    left: 20%;
+    top: 64%;
+    font-size: 7vh;
+    width: 1000px;
 
   }
 
-  p {
-    width: 590px;
-}
+
 
 .solutions {
-    height: 100px;
-    width: 200px;
+  height: 200px;
+width: 500px;
     position: absolute;
-    top: 80%;
-    left: 136%;
-    border-radius: 4vh;
+    top: 185%;
+    left: 60%;
+  border-radius: 10vh;
     opacity: 0.8;
-    font-size: 3vh;
+    font-size: 7vh;
     border: 1px solid black;
 }
 
 
 .text_page_2_1 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 300%;
+    font-size: 7vh
+
 }
 .text_page_2_2 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 340%;
+    font-size: 7vh
 }
 .text_page_2_3 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 410%;
+    font-size: 7vh
 }
 .text_page_2_4 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 480%;
+    font-size: 7vh
+
 }
 
 .tittle_accroche {
 
-  left: 95%;
+  left: 50%;
+  top : 220%;
+  font-size: 12vh;
 
 }
 .trait_accroche_left{
@@ -575,29 +588,32 @@ top: 53%;
   display: none;
 }
 
-.background_planete_2 {
-  width: 3000px;
-  height: auto;
 
-}
 
 .text_page_3_1 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 600%;
+    font-size: 7vh
 }
 .text_page_3_2 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 800%;
+    font-size: 7vh
 }
 .text_page_3_3 {
-  left: 95%;
+  left: 45%;
     margin: 0 auto;
+    top: 980%;
+    font-size: 7vh;
 }
 
 .tittle_accroche_page_2 {
 
-  left: 95%;
-
+  left: 50%;
+  top : 550%;
+  font-size: 12vh;
 }
 .trait_accroche_left_page_2{
   display: none;
@@ -609,24 +625,26 @@ top: 53%;
 
 
 
+.fusee{
+  left: 45%;
+  top: 710%;
+  width: 100vh
 
-.text_page_4_1 {
-  left: 95%;
-    margin: 0 auto;
 }
-.text_page_4_2 {
-  left: 95%;
-    margin: 0 auto;
-}
-.text_page_4_3 {
-  left: 95%;
-    margin: 0 auto;
+
+.dechet{
+  left: 45%;
+  top: 900%;
+  width: 100vh
+
+
 }
 
 .tittle_accroche_page_3 {
 
-  left: 95%;
-
+  left: 50%;
+  top : 1050%;
+  font-size: 12vh;
 }
 .trait_accroche_left_page_3{
   display: none;
@@ -636,24 +654,35 @@ top: 53%;
   display: none;
 }
 
-.fusee{
-  left: 124%;
-
+.text_page_4_1 {
+  left: 45%;
+    margin: 0 auto;
+    top: 1100%;
+    font-size: 7vh;
 }
-
-.dechet{
-  left: 124%;
-
+.text_page_4_2 {
+  left: 45%;
+    margin: 0 auto;
+    top: 1300%;
+    font-size: 7vh;
 }
+.text_page_4_3 {
+  left: 45%;
+    margin: 0 auto;
+    top: 1500%;
+    font-size: 7vh;
+     }
 .falcon_1{
-  left: 116%;
-  top: 434%;
+  left: 45%;
+  top: 1215%;
+  width: 100vh
 
 }
 
 .falcon_2{
-  left: 116%;
-  top: 498%;
+  left: 45%;
+  top: 1400%;
+  width: 100vh
 
 }
 .responsive{
