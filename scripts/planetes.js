@@ -10,7 +10,6 @@ hamburger.addEventListener("click", ()=> {
   hamburger.style.zIndex = "2"
   croix.style.opacity = "1"
   croix.style.zIndex = "6"
-  croix.style.display = "bloc"
 })
 croix.addEventListener("click", ()=> {
   menu_hamburger.style.opacity = "0"
@@ -19,5 +18,4 @@ croix.addEventListener("click", ()=> {
   hamburger.style.zIndex = "6"
   croix.style.opacity = "0"
   croix.style.zIndex = "2"
-  croix.style.display = "none"
 })
