@@ -11,12 +11,19 @@
 	<body>
 		<div class="player js-player">
 			<div class="header">
-				<a href="index.html"><img class="logo" src="images/logo earth.png" alt="logo représentant la terre"></a>
-				<a href="terre.html">Pollution terrestre</a>
-				<a class="current_page" href="debris.html">Pollution spatiale</a>
-				<a href="planetes.html">Pollution planetaire</a>
-				<img class="logo" src="images/VR.png" alt="logo représentant le google cardboard">
-			</div>
+			<a href="index.html"><img class="logo earth_logo" src="images/logo earth.png" alt="logo représentant la terre">
+			<a href="terre.html" class="text_header">Pollution terrestre</a>
+			<a class="current_page text_header"  href="debris.html">Pollution spatiale</a>
+			<a href="planetes.html" class="text_header">Pollution planétaire</a>
+			<img class="logo cardboard_logo" src="images/VR.png" alt="logo représentant le google cardboard">
+		</div>
+		<img class="hamburger js_hamburger" src="images/menu.png" alt="">
+		<img class="croix js_croix" src="images/croix.gif" alt="">
+		<div class="menu_hamburger js_menu_hamburger">
+			<a href="debris.html"><p class="text_menu">Pollution spatiale</p></a>
+			<a href="terre.html"><p class="text_menu">Pollution terrestre</p></a>
+			<a href="planetes.html"><p class="text_menu">Pollution planétaire</p></a>
+		</div>
 			<div class="text_central">
 				<p class="tittle_accueil">Pour beaucoup l'espace est le futur de l'homme mais si nous voulons que ce <br>souhait ce réalise il faudrait cesser de le considérer comme notre poubelle.</p>
 				<p class="scroll_accueil">Scrollez pour découvrir la réalité</p>
@@ -30,7 +37,7 @@
 				Depuis 1957, elle est aussi dans l'espace pour la voir il suffit de lever les yeux et de se préoccuper de ce qu'il se passe au dessus de nos têtes.<br><br>
 				Chaque année des milliers de nouveaux débris se mettent en orbite autour de la Terre. Certains sont envoyés par l'Homme, d'autres sont la conséquences du trop grand nombre de débris déjà présents.<br><br>
 				Les risques de cette pollution sont nombreux, les scientifiques l'ont bien compris et maintenant il faut agir pour éviter d'engendrer de nouveaux problèmes liés à cette pollution.</p>
-				<img class="bazar" src="images/bazar.PNG" alt="">
+				<img class="bazar" src="images/bazar.PNG" alt="" >
 
 				<p class="text_recap">Le début de la conquête de l'espace a vu le jour en 1957 par le lancement de Spoutnik 1 par l'Union Soviétique.<br><br>
 				Si cette conquête a été vu comme une avancée technologique majeur elle a aussi ouvert la porte à une nouvelle forme de pollution.<br><br>
@@ -77,36 +84,31 @@
 			</div>
 
 			<footer>
-				<div class="trait_footer"></div>
-
-
-				<div class="mentions_legales">mentions légales</div>
-				<div class="part_left_footer">
-					<div class="tittle_footer">La pollution spatiale</div>
-				  	<div class="col_left">
-						<a href="index.html"><div class="accueil">accueil</div></a>
-						<a href="debris.html"><div class="debris">debris</div></a>
-						<a href="3D_deskop.html"><div class="deskop">deskop</div></a>
-					</div>
-					<div class="col_right">
-						<a href="debris.html"><div class="planétes">planetes</div></a>
-						<a href="terre.html"><div class="mobile">terre</div></a>
-						<a href="3D_mobile.html"><div class="terre">mobile</div></a>
-				 	</div>
+			<div class="trait_footer"></div>
+			<a href="legales.html"><div class="mentions_legales">mentions légales</div></a>
+			<div class="part_left_footer">
+		  	<div class="col_left">
+				 <a href="index.html"><div class="accueil">accueil</div></a>
+				 <a href="debris.html"><div class="debris">debris</div></a>
+				 <a href="3D_deskop.html"><div class="deskop">deskop</div></a>
+			  </div>
+			  <div class="col_right">
+				 <a href="debris.html"><div class="planetes rehaut">planetes</div></a>
+				 <a href="terre.html"><div class="mobile rehaut">terre</div></a>
+				 <a href="3D_mobile.html"><div class="terre rehaut">mobile</div></a>
+		 		</div>
+			</div>
+			<div class="part_right_footer">
+				<div class="col_left">
+				 <a href="http://www.robindesbois.org"><div class="accueil">Robin Desbois.org</div></a>
+				 <div class="planetes">01.48.04.09.36</div></a>
 				</div>
-				<div class="part_right_footer">
-					<div class="tittle_assoc">l'association robin des bois</div>
-					<div class="col_left">
-						<a href="http://www.robindesbois.org"><div class="accueil">Robin Desbois.org</div></a>
-						<a href="debris.html"><div class="planétes">contact@robindesbois.org</div></a>
-						<a href="debris.html"><div class="planétes">01.48.04.09.36.</div></a>
-					</div>
-					<div class="col_right">
-						<a href="https://www.facebook.com/pages/category/Non-Governmental-Organization--NGO-/Association-Robin-des-Bois-154679805114611/"><div class="planétes">Facebook</a>
-						<a href="https://twitter.com/robindesbois_tw?lang=fr"><div class="terre">Twitter</div></a>
-					</div>
+				<div class="col_right">
+					<a href="https://www.facebook.com/pages/category/Non-Governmental-Organization--NGO-/Association-Robin-des-Bois-154679805114611/"><div class="planetes rehaut">Facebook</div></a>
+					<a href="https://twitter.com/robindesbois_tw?lang=fr"><div class="terre rehaut">Twitter</div></a>
 				</div>
-			</footer>
+			</div>
+		</footer>
 		</div>
 		<script src="scripts/main.js"></script>
 	</body>

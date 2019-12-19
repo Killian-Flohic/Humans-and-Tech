@@ -49,7 +49,6 @@ a{
   pointer-events: none;
 }
 /*responsive header*/
-
 @media screen and (max-width: 915px){
   ..header{
     display: flex;
@@ -128,7 +127,6 @@ a{
   opacity: 0;
 }
 }
-
 /*main*/
 .background_intro{
   height: 100%;
@@ -528,276 +526,275 @@ a{
 }
 /*responsive main*/
 @media screen and (max-width: 915px){
-body{
-  background-color: black;
-}
+  body{
+    background-color: black;
+  }
 
-.tittle_accueil{
-  position: absolute;
-  z-index: 4;
-  top: 28%;
-  color: white;
-  font-size: 5vh;
-  text-align: center;
-}
-.text_accueil{
-  position: absolute;
-  z-index: 4;
-  top: 48%;
-  color: white;
-  font-size: 4vh;
-  text-align: center;
-}
-.subtittle_accueil{
-  position: absolute;
-  z-index: 4;
-  top: 30%;
-  color: white;
-  font-size: 9vh;
-  text-align: center;
-}
-.scroll_accueil{
-  position: absolute;
-  z-index: 4;
-  top: 80%;
-  color: white;
-  font-size: 4vh;
-  text-align: center;
-}
-.tittle_accroche{
-  font-size: 4.5vh;
-}
-.text_accroche{
-  z-index: 4;
-  position: absolute;
-  top: 120%;
-  left: 5%;
-  color: white;
-  font-size: 2.5vh;
-  width: 70%;
-  text-align: center;
-}
-.text_accroche2{
-  z-index: 4;
-  position: absolute;
-  top: 150%;
-  left: 5%;
-  color: white;
-  font-size: 2.5vh;
-  text-align: center;
-  width: 50%;
-}
-.tittle_recap{
-  position: absolute;
-  z-index: 4;
-  top: 205%;
-  color: white;
-  font-size: 4.5vh;
-  text-align: center;
-}
-.text_recap{
-  z-index: 4;
-  position: absolute;
-  top: 215%;
-  left: 5%;
-  color: white;
-  font-size: 2.5vh;
-  text-align: center;
-  width: 90%;
-}
+  .tittle_accueil{
+    position: absolute;
+    z-index: 4;
+    top: 28%;
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+  }
+  .text_accueil{
+    position: absolute;
+    z-index: 4;
+    top: 48%;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+  }
+  .subtittle_accueil{
+    position: absolute;
+    z-index: 4;
+    top: 30%;
+    color: white;
+    font-size: 9vh;
+    text-align: center;
+  }
+  .scroll_accueil{
+    position: absolute;
+    z-index: 4;
+    top: 80%;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+  }
+  .tittle_accroche{
+    font-size: 4.5vh;
+  }
+  .text_accroche{
+    z-index: 4;
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    color: white;
+    font-size: 2.5vh;
+    width: 70%;
+    text-align: center;
+  }
+  .text_accroche2{
+    z-index: 4;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    width: 50%;
+  }
+  .tittle_recap{
+    position: absolute;
+    z-index: 4;
+    top: 205%;
+    color: white;
+    font-size: 4.5vh;
+    text-align: center;
+  }
+  .text_recap{
+    z-index: 4;
+    position: absolute;
+    top: 215%;
+    left: 5%;
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    width: 90%;
+  }
 
-.text_recap2{
-  z-index: 4;
-  position: absolute;
-  top: 275%;
-  left: 5%;
-  color: white;
-  font-size: 2.5vh;
-  text-align: center;
-  width: 90%;
-}
+  .text_recap2{
+    z-index: 4;
+    position: absolute;
+    top: 275%;
+    left: 5%;
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    width: 90%;
+  }
 
-.sondes{
-  height: 20vh;
-  width : 60vw;
-  position: absolute;
-  top: 320%;
-  left: 20%;
-  z-index: 4;
-  border-radius: 10vh;
-  opacity: 0;
-}
-.bacterie{
-  height: 20vh;
-  width : 60vw;
-  position: absolute;
-  top: 255%;
-  left: 20%;
-  z-index: 4;
-  border-radius: 10vh;
-}
-.tittle_ethique{
-  position: absolute;
-  z-index: 4;
-  top: 312%;
-  color: white;
-  font-size: 4.5vh;
-  text-align: center;
-}
-.text_ethique{
-  z-index: 4;
-  position: absolute;
-  top: 320%;
-  left: 7.5%;
-  color: white;
-  font-size: 2.5vh;
-  text-align: center;
-  width: 80%;
-}
+  .sondes{
+    height: 20vh;
+    width : 60vw;
+    position: absolute;
+    top: 320%;
+    left: 20%;
+    z-index: 4;
+    border-radius: 10vh;
+    opacity: 0;
+  }
+  .bacterie{
+    height: 20vh;
+    width : 60vw;
+    position: absolute;
+    top: 255%;
+    left: 20%;
+    z-index: 4;
+    border-radius: 10vh;
+  }
+  .tittle_ethique{
+    position: absolute;
+    z-index: 4;
+    top: 312%;
+    color: white;
+    font-size: 4.5vh;
+    text-align: center;
+  }
+  .text_ethique{
+    z-index: 4;
+    position: absolute;
+    top: 320%;
+    left: 7.5%;
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    width: 80%;
+  }
 
-.text_ethique2{
-  z-index: 4;
-  position: absolute;
-  top: 362%;
-  left: 7.5%;
-  color: white;
-  font-size: 2.5vh;
-  text-align: center;
-  width: 80%;
-}
-.alien{
-  height: 10vh;
-  width : 30vw;
-  position: absolute;
-  top: 352%;
-  left: 5%;
-  z-index: 4;
-  border-radius: 10vh;
-}
-.decors{
-  height: 10vh;
-  width : 30vw;
-  position: absolute;
-  top: 352%;
-  left: 65%;
-  z-index: 4;
-  border-radius: 10vh;
-}
+  .text_ethique2{
+    z-index: 4;
+    position: absolute;
+    top: 362%;
+    left: 7.5%;
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    width: 80%;
+  }
+  .alien{
+    height: 10vh;
+    width : 30vw;
+    position: absolute;
+    top: 352%;
+    left: 5%;
+    z-index: 4;
+    border-radius: 10vh;
+  }
+  .decors{
+    height: 10vh;
+    width : 30vw;
+    position: absolute;
+    top: 352%;
+    left: 65%;
+    z-index: 4;
+    border-radius: 10vh;
+  }
 
-.interrogation{
-  height: 10vh;
-  width : 20vw;
-  position: absolute;
-  top: 385%;
-  left: 41%;
-  z-index: 4;
-  opacity: 0;
-}
-
-.trait_VR_left{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 32%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_VR_right{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 68%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_accroche_left{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 32%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_accroche_right{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 68%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_recap_left{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 32%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_recap_right{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 442%;
-  left: 68%;
-  z-index: 4;
-  opacity: 0;
-}
-.trait_VR_coin_left{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 396%;
-  left: 76%;
-  z-index: 4;
-}
-.trait_VR_coin_left_plat{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  position: absolute;
-  top: 478%;
-  left: 5%;
-  z-index: 4;
-}
-.trait_VR_coin_right{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 488%;
-  left: 25%;
-  z-index: 4;
-}
-.trait_VR_coin_right_plat{
-  height: 15vh;
-  width: 0.2vw;
-  background-color: white;
-  position: absolute;
-  top: 407%;
-  left: 95%;
-  z-index: 4;
-}
+  .interrogation{
+    height: 10vh;
+    width : 20vw;
+    position: absolute;
+    top: 385%;
+    left: 41%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_VR_left{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 442%;
+    left: 32%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_VR_right{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 442%;
+    left: 68%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_accroche_left{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 442%;
+    left: 32%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_accroche_right{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 442%;
+    left: 68%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_recap_left{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 442%;
+    left: 32%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_recap_right{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 442%;
+    left: 68%;
+    z-index: 4;
+    opacity: 0;
+  }
+  .trait_VR_coin_left{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 396%;
+    left: 76%;
+    z-index: 4;
+  }
+  .trait_VR_coin_left_plat{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    position: absolute;
+    top: 478%;
+    left: 5%;
+    z-index: 4;
+  }
+  .trait_VR_coin_right{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 488%;
+    left: 25%;
+    z-index: 4;
+  }
+  .trait_VR_coin_right_plat{
+    height: 15vh;
+    width: 0.2vw;
+    background-color: white;
+    position: absolute;
+    top: 407%;
+    left: 95%;
+    z-index: 4;
+  }
 }
 /*FOOTER*/
 footer{
@@ -810,6 +807,7 @@ footer{
   border-top: 1px solid #ffffff;
   font-size: 4vh;
   text-align: center;
+  justify-content: space-around;
 }
 .tittle_footer{
   position: absolute;
@@ -858,9 +856,6 @@ footer{
   left: 50%;
   z-index: 4;
   }
-footer{
-  justify-content: space-around;
-}
 .part_left_footer{
   position: absolute;
   left: 0%;
@@ -895,86 +890,81 @@ footer{
  z-index : 100;
  position: absolute;
 }
-
 /*responsive footer*/
 @media screen and (max-width: 915px){
-footer{
-  width: 100%;
-  height: 150%;
-  background-color: #000000;
-  border-top: 1px solid #ffffff;
-  font-size: 5vh;
-}
-
-.computer{
-  position: absolute;
-  top: 460%;
-  left: 58%;
-  background-color: #ffffff;
-  color: #000000;
-  height: 5vh;
-  width: 30vw;
-  z-index: 4;
-  border-radius: 20vh;
-  font-size: 3vh;
-  text-align: center;
-}
-.phone{
-  position: absolute;
-  top: 460%;
-  left: 20%;
-  background-color: #ffffff;
-  color: #000000;
-  height: 5vh;
-  width: 30vw;
-  z-index: 4;
-  border-radius: 20vh;
-  font-size: 3vh;
-  text-align: center;
-}
-
-.tittle_footer{
-  opacity: 0;
-}
-
-.tittle_assoc{
-    opacity: 0;
-}
-.mentions_legales{
-  position: absolute;
-  left: 30%;
-  margin-top: 20%;
-  z-index: 4;
-  color: white;
-  font-size: 3vh;
-}
-.trait_footer{
-  height: 15vh;
-  width: 0.1vw;
-  background-color: white;
-  position: absolute;
-  transform: rotate(0deg);
-  top: 30%;
-  left: 50%;
-  z-index: 4;
-  opacity: 0;
+  footer{
+    width: 100%;
+    height: 150%;
+    background-color: #000000;
+    border-top: 1px solid #ffffff;
+    font-size: 5vh;
   }
-
-.part_left_footer{
-  display: flex;
-  flex-direction: column;
-  left: 25%;
-  position: absolute;
-  bottom: 15%;
-  width: 50%;
-}
-.part_right_footer{
-  color: white;
-  position: absolute;
-  top: 6%;
-  left: 25%;
-width: 50%;
-  display: flex;
-  flex-direction: column;
-}
+  .computer{
+    position: absolute;
+    top: 460%;
+    left: 58%;
+    background-color: #ffffff;
+    color: #000000;
+    height: 5vh;
+    width: 30vw;
+    z-index: 4;
+    border-radius: 20vh;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+  .phone{
+    position: absolute;
+    top: 460%;
+    left: 20%;
+    background-color: #ffffff;
+    color: #000000;
+    height: 5vh;
+    width: 30vw;
+    z-index: 4;
+    border-radius: 20vh;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+  .tittle_footer{
+    opacity: 0;
+  }
+  .tittle_assoc{
+      opacity: 0;
+  }
+  .mentions_legales{
+    position: absolute;
+    left: 30%;
+    margin-top: 20%;
+    z-index: 4;
+    color: white;
+    font-size: 3vh;
+  }
+  .trait_footer{
+    height: 15vh;
+    width: 0.1vw;
+    background-color: white;
+    position: absolute;
+    transform: rotate(0deg);
+    top: 30%;
+    left: 50%;
+    z-index: 4;
+    opacity: 0;
+    }
+  .part_left_footer{
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+    position: absolute;
+    bottom: 15%;
+    width: 50%;
+  }
+  .part_right_footer{
+    color: white;
+    position: absolute;
+    top: 6%;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
 }
