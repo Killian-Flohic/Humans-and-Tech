@@ -9,7 +9,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #000000;
-  opacity: 0.8;
+  opacity: 1;
   height: 9vh;
   width: 100%;
   position: absolute;
@@ -25,6 +25,12 @@ a{
   color: #ffffff;
   text-decoration: none;
 }
+
+.current_page
+{
+    border-bottom: 1px solid #ffffff;
+}
+
 .logo{
   height: 7vh;
   z-index: 3;

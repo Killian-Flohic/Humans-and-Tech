@@ -1,5 +1,5 @@
-@font-face {
-  font-family: 'gordita_medium';
+/* @font-face {
+  font-family: 'Gordita';
   src: url('../fonts/Gordita/gordita_medium-webfont.eot');
   src: url('../fonts/Gordita/gordita_medium-webfont.eot') format('embedded-opentype'),
        url('../fonts/Gordita/gordita_medium-webfont.woff2') format('woff2'),
@@ -9,12 +9,28 @@
        url('../fonts/Gordita/gordita_medium-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+} */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Light.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Bold.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body{
 margin: 0;
 overflow-x: hidden;
+font-family: 'Lato';
 }
+
+p
+{
+  font-weight: bold;
+  line-height: 140%;
+}
+
 /*header*/
 .header{
   display: flex;
@@ -29,7 +45,7 @@ overflow-x: hidden;
   left: 0%;
   z-index: 3;
   font-size: 3vh;
-  font-family: 'gordita_medium', sans-serif;
+  font-family: 'Lato-Bold', sans-serif;
   color: orange;
 }
 
@@ -52,7 +68,7 @@ a{
 }
 /*responsive header*/
 @media screen and (max-width: 915px){
-  ..header{
+  .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -65,7 +81,7 @@ a{
     left: 0%;
     z-index: 3;
     font-size: 3vh;
-    font-family: 'gordita_medium', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a{
@@ -136,31 +152,32 @@ width: 100vw;
 }
 .spatiale{
 position: absolute;
-top: 23%;
-font-size: 11vh;
+top: 12%;
+font-size: 18vh;
 }
 .pollution{
 position: absolute;
-top: 17%;
-font-size: 6vh;
+top: 6%;
+font-size: 9vh;
 }
 .text{
-position: absolute;
-z-index: 2;
-top: 42%;
-font-size: 3vh;
-text-align: center;
+  position: absolute;
+  z-index: 2;
+  width: 65%;
+  top: 46%;
+  font-size: 6vh;
+  font-family: 'Lato';
+  font-weight: bold;
+  text-align: center;
 }
 
 .solutions{
-height: 8vh;
-width: 15vw;
-position: absolute;
-top: 85%;
-border-radius: 4vh;
-opacity: 0.8;
-font-size: 3vh;
-border: 1px solid black;
+  height: 8vh;
+  width: 36vw;
+  position: absolute;
+  top: 88%;
+  font-size: 4vh;
+  font-weight: bold;
 }
 .alignement{
 display: flex;
@@ -201,13 +218,16 @@ left: 0;
 display: flex;
 justify-content: center;
 }
+
 .tittle_accroche{
-position: absolute;
-z-index: 4;
-top: 105%;
-color: white;
-font-size: 4vh;
-text-align: center;
+  position: absolute;
+  z-index: 4;
+  top: 97%;
+  color: white;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .trait_accroche_left{
@@ -216,8 +236,8 @@ width: 0.2vw;
 background-color: white;
 transform: rotate(90deg);
 position: absolute;
-top: 104%;
-left: 32%;
+top: 100%;
+left: 24%;
 z-index: 4;
 }
 .trait_accroche_right{
@@ -226,8 +246,8 @@ width: 0.2vw;
 background-color: white;
 transform: rotate(90deg);
 position: absolute;
-top: 104%;
-left: 68%;
+top: 100%;
+left: 76%;
 z-index: 4;
 }
 
@@ -235,33 +255,34 @@ z-index: 4;
 font-size: 3vh;
 text-align: center;
 color: white;
-
 }
+
 .text_page_2_1{
 position:absolute;
 z-index :5;
-top: 124%;
-right: 25%;
+top: 118%;
+right: 18%;
 }
+
 .text_page_2_2{
 position:absolute;
 z-index :5;
-top: 138%;
-right: 35%;
-
+top: 135%;
+right: 31%;
 }
+
 .text_page_2_3{
 position:absolute;
 z-index :5;
-top: 155%;
+top: 156%;
 right: 45%;
-
 }
+
 .text_page_2_4{
 position:absolute;
 z-index :5;
-top: 175%;
-right: 55%;
+top: 177%;
+right: 53%;
 }
 
 
@@ -269,10 +290,12 @@ right: 55%;
 .tittle_accroche_page_2{
  position: absolute;
  z-index: 4;
- top: 205%;
+ top: 201%;
  color: white;
- font-size: 4vh;
+ font-size: 6vh;
  text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
 }
 
 .trait_accroche_left_page_2{
@@ -282,7 +305,7 @@ right: 55%;
  transform: rotate(90deg);
  position: absolute;
  top: 204%;
- left: 32%;
+ left: 34%;
  z-index: 4;
 }
 .trait_accroche_right_page_2{
@@ -292,7 +315,7 @@ right: 55%;
  transform: rotate(90deg);
  position: absolute;
  top: 204%;
- left: 68%;
+ left: 65%;
  z-index: 4;
 }
 
@@ -305,13 +328,13 @@ right: 55%;
 .text_page_3_1{
  position:absolute;
  z-index :5;
- top: 230%;
+ top: 223%;
  left: 5%;
 }
 .text_page_3_2{
  position:absolute;
  z-index :5;
- top: 268%;
+ top: 261%;
  right: 5%;
 
 }
@@ -326,7 +349,7 @@ right: 55%;
 .fusee{
  position: absolute;
  z-index:7;
- top: 268%;
+ top: 258%;
  left: 12%;
  width: 50vh;
  height:auto;
@@ -345,10 +368,12 @@ right: 55%;
 .tittle_accroche_page_3{
  position: absolute;
  z-index: 4;
- top: 365%;
+ top: 350%;
  color: white;
- font-size: 4vh;
+ font-size: 6vh;
  text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
 }
 
 .trait_accroche_left_page_3{
@@ -357,8 +382,8 @@ right: 55%;
  background-color: white;
  transform: rotate(90deg);
  position: absolute;
- top: 365%;
- left: 32%;
+ top: 353%;
+ left: 29%;
  z-index: 4;
 }
 .trait_accroche_right_page_3{
@@ -367,8 +392,8 @@ right: 55%;
  background-color: white;
  transform: rotate(90deg);
  position: absolute;
- top: 365%;
- left: 68%;
+ top: 353%;
+ left: 71%;
  z-index: 4;
 }
 
@@ -381,13 +406,13 @@ right: 55%;
 .text_page_4_1{
  position:absolute;
  z-index :5;
- top: 385%;
+ top: 367%;
  left: 25%;
 }
 .text_page_4_2{
  position:absolute;
  z-index :5;
- top: 455%;
+ top: 442%;
  left: 25%;
 
 }
@@ -395,7 +420,7 @@ right: 55%;
 .falcon_1{
   position: absolute;
   z-index:7;
-  top: 418%;
+  top: 408%;
   left: 10%;
   width:55vh;
   height: auto;
@@ -404,7 +429,7 @@ right: 55%;
 .falcon_2{
   position: absolute;
   z-index:7;
-  top: 418%;
+  top: 408%;
   right: 10%;
   width:55vh;
   height: auto;
@@ -427,7 +452,7 @@ p{
 .tittle_VR{
   position: absolute;
   z-index: 4;
-  top: 520%;
+  top: 511%;
   color: white;
   font-size: 5.5vh;
   text-align: center;
@@ -439,8 +464,8 @@ p{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 522%;
-  left: 32%;
+  top: 518%;
+  left: 26%;
   z-index: 4;
 }
 .trait_VR_right{
@@ -449,8 +474,8 @@ p{
   background-color: white;
   transform: rotate(90deg);
   position: absolute;
-  top: 522%;
-  left: 68%;
+  top: 518%;
+  left: 73%;
   z-index: 4;
 }
 .trait_VR_coin_left{
@@ -509,6 +534,7 @@ p{
   left: 20%;
   top: 540%;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
 }
 
@@ -516,7 +542,8 @@ p{
   background-color: #ffffff;
   color: #000000;
   height: 4vh;
-  width: 7vw;
+  width: 8vw;
+  text-align: center;
   z-index: 11;
   border-radius: 20vh;
   font-size: 3vh;
@@ -563,20 +590,13 @@ footer{
 }
 .mentions_legales{
   position: absolute;
-  top: 85%;
-  left: 89%;
+  top: 30%;
+  left: 74%;
   z-index: 4;
   color: white;
   font-size: 3vh;
 }
-.mentions_legales{
-  position: absolute;
-  top: 85%;
-  left: 89%;
-  z-index: 4;
-  color: white;
-  font-size: 3vh;
-}
+
 .trait_footer{
   height: 15vh;
   width: 0.1vw;
