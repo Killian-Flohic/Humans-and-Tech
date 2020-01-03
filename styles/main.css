@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Lato';
   src: url('../fonts/Gordita/gordita_medium-webfont.eot');
   src: url('../fonts/Gordita/gordita_medium-webfont.eot') format('embedded-opentype'),
@@ -9,9 +9,18 @@
        url('../fonts/Gordita/gordita_medium-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+} */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Light.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Bold.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 body{
-  font-family: 'arial', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 /*header*/
 .header{
@@ -27,7 +36,7 @@ body{
   left: 0%;
   z-index: 3;
   font-size: 3vh;
-  font-family: 'gordita_medium', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: orange;
 }
 a{
@@ -200,7 +209,7 @@ a{
   color: white;
   font-size: 3.5vh;
   text-align: center;
-  width: 50%;
+  width: 48%;
 }
 .spoutnik{
   height: 40vh;
